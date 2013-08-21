@@ -1,0 +1,55 @@
+#!/bin/bash
+cd ${PWD}
+export KERNEL_IS_HERE=$(echo $PWD)
+export SCRIPT_BUILD_OUTPUT=$KERNEL_IS_HERE/build/output
+export SCRIPT_BUILD_OUTPUT_MODULES=$SCRIPT_BUILD_OUTPUT/system/lib/modules
+export ANDROID_FOLDER=/home/syukri/android_4.2/
+
+if [[ -e build/output/boot.img ]]; then
+  echo "boot.img found, continuing"
+else
+  echo "boot.img not found, run build_bootimg first"
+  exit
+fi;
+
+function clean_old_modules
+{
+	rm -f build/output/system/lib/modules/*.ko
+}
+
+function copy_modules_to_output 
+{
+	rm -Rf /tmp/modules
+	mkdir /tmp/modules
+	find $ANDROID_FOLDER/out/target/product/p880/system/lib/modules/ -name "*.ko" -exec cp {} /tmp/modules/ \;
+	cp /tmp/modules/*.ko build/output/system/lib/modules/
+}
+
+
+function make_zip
+{
+	echo "Creating flashable zip"
+	export CURR=$PWD
+	cd build/output/
+	find . -type f -print|zip -0 ../out_zip/optimus-prime.zip -@
+	cd $CURR
+}
+
+function main 
+{
+	echo "Starting work"
+	echo ""
+	echo "Removing old modules"
+	clean_old_modules
+	echo ""
+	echo "Old modules cleaned"
+	echo ""
+	echo "Copying modules from $OUT_DIR to /build/output/modules"
+	copy_modules_to_output
+	echo ""
+	make_zip
+	echo "Zip is made, exiting now"
+	exit
+}
+
+main
