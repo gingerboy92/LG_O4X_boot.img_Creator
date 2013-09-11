@@ -3,7 +3,7 @@ cd ${PWD}
 export KERNEL_IS_HERE=$(echo $PWD)
 export SCRIPT_BUILD_OUTPUT=$KERNEL_IS_HERE/build/output
 export SCRIPT_BUILD_OUTPUT_MODULES=$SCRIPT_BUILD_OUTPUT/system/lib/modules
-export ANDROID_FOLDER=/home/syukri/android_4.2/
+export ANDROID_FOLDER=/home/syukri/android/slimbean_4.3/
 
 if [[ -e build/output/boot.img ]]; then
   echo "boot.img found, continuing"
@@ -31,7 +31,7 @@ function make_zip
 	echo "Creating flashable zip"
 	export CURR=$PWD
 	cd build/output/
-	find . -type f -print|zip -0 ../out_zip/optimus-prime.zip -@
+	find . -type f -print|zip -0 ../out_zip/optimus-prime-$1.zip -@
 	cd $CURR
 }
 
@@ -47,9 +47,11 @@ function main
 	echo "Copying modules from $OUT_DIR to /build/output/modules"
 	copy_modules_to_output
 	echo ""
-	make_zip
-	echo "Zip is made, exiting now"
+	make_zip $1
+	if [[ -e build/output/out_zip/optimus_prime-$1.zip ]]; then
+		echo "Zip is made, exiting now"
+	fi
 	exit
 }
 
-main
+main $1

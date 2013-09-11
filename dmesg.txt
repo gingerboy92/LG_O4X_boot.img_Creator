@@ -1,0 +1,1553 @@
+<6>[70:01:01 00:00:00.000] Initializing cgroup subsys cpu
+<5>[70:01:01 00:00:00.000] Linux version 3.1.10-OP-V2.63- (syukri@syukri-Aspire-3820TG) (gcc version 4.6.x-google 20120106 (prerelease) (GCC) ) #8 SMP PREEMPT Wed Aug 21 21:49:35 MYT 2013
+<4>[70:01:01 00:00:00.000] CPU: ARMv7 Processor [412fc099] revision 9 (ARMv7), cr=10c5387d
+<4>[70:01:01 00:00:00.000] CPU: VIPT nonaliasing data cache, VIPT aliasing instruction cache
+<4>[70:01:01 00:00:00.000] Machine: x3
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<4>[70:01:01 00:00:00.000] Ignoring unrecognised tag 0x41000801
+<6>[70:01:01 00:00:00.000] Found tegra_fbmem: 00708b40@ace23000
+<6>[70:01:01 00:00:00.000] Tegra reserved memory:
+<6>[70:01:01 00:00:00.000] LP0:                    b6005000 - b6006fff
+<6>[70:01:01 00:00:00.000] Bootloader framebuffer: ace23000 - ad52bfff
+<6>[70:01:01 00:00:00.000] Framebuffer:            bee00000 - bf5fffff
+<6>[70:01:01 00:00:00.000] 2nd Framebuffer:        bf600000 - bfdfffff
+<6>[70:01:01 00:00:00.000] Carveout:               00000000 - 00000000
+<6>[70:01:01 00:00:00.000] Vpr:                    00000000 - 00000000
+<4>[70:01:01 00:00:00.000] Memory policy: ECC disabled, Data cache writealloc
+<7>[70:01:01 00:00:00.000] On node 0 totalpages: 257024
+<7>[70:01:01 00:00:00.000] free_area_init_node: node 0, pgdat c0998c40, node_mem_map c1058000
+<7>[70:01:01 00:00:00.000]   Normal zone: 1404 pages used for memmap
+<7>[70:01:01 00:00:00.000]   Normal zone: 0 pages reserved
+<7>[70:01:01 00:00:00.000]   Normal zone: 158340 pages, LIFO batch:31
+<7>[70:01:01 00:00:00.000]   HighMem zone: 896 pages used for memmap
+<7>[70:01:01 00:00:00.000]   HighMem zone: 96384 pages, LIFO batch:31
+<6>[70:01:01 00:00:00.000] fuse_speedo_calib: ATE prog ver 3.7
+<6>[70:01:01 00:00:00.000] Tegra3: CPU Speedo ID 4, Soc Speedo ID 1
+<6>[70:01:01 00:00:00.000] Tegra Revision: A03 SKU: 0x81 CPU Process: 3 Core Process: 1
+<6>[70:01:01 00:00:00.000] tegra: PLLP fixed rate: 408000000
+<4>[70:01:01 00:00:00.000] Lowering cpu_lp maximum rate from 620000000 to 500000000
+<4>[70:01:01 00:00:00.000] Lowering sbus maximum rate from 378000000 to 267000000
+<4>[70:01:01 00:00:00.000] Lowering vi maximum rate from 470000000 to 409000000
+<4>[70:01:01 00:00:00.000] Lowering vde maximum rate from 600000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering mpe maximum rate from 600000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering 2d maximum rate from 600000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering epp maximum rate from 600000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering 3d maximum rate from 600000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering 3d2 maximum rate from 600000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering se maximum rate from 625000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering host1x maximum rate from 300000000 to 267000000
+<4>[70:01:01 00:00:00.000] Lowering cbus maximum rate from 700000000 to 520000000
+<4>[70:01:01 00:00:00.000] Lowering pll_c maximum rate from 1400000000 to 1066000000
+<4>[70:01:01 00:00:00.000] Lowering ndflash maximum rate from 240000000 to 200000000
+<4>[70:01:01 00:00:00.000] Lowering sbc1 maximum rate from 160000000 to 100000000
+<4>[70:01:01 00:00:00.000] Lowering sbc2 maximum rate from 160000000 to 100000000
+<4>[70:01:01 00:00:00.000] Lowering sbc3 maximum rate from 160000000 to 100000000
+<4>[70:01:01 00:00:00.000] Lowering sbc4 maximum rate from 160000000 to 100000000
+<4>[70:01:01 00:00:00.000] Lowering sbc5 maximum rate from 160000000 to 100000000
+<4>[70:01:01 00:00:00.000] Lowering sbc6 maximum rate from 160000000 to 100000000
+<4>[70:01:01 00:00:00.000] Lowering dsia maximum rate from 500000000 to 432500000
+<4>[70:01:01 00:00:00.000] Lowering dsib maximum rate from 500000000 to 432500000
+<4>[70:01:01 00:00:00.000] Lowering cpu_g maximum rate from 1700000000 to 1500000000
+<4>[70:01:01 00:00:00.000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<4>[70:01:01 00:00:00.000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<4>[70:01:01 00:00:00.000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<4>[70:01:01 00:00:00.000] tegra3_dvfs: cold offset 50000000 is too high for regular dvfs limit 1000000
+<6>[70:01:01 00:00:00.000] tegra dvfs: VDD_CPU nominal 1125mV, scaling enabled
+<6>[70:01:01 00:00:00.000] tegra dvfs: VDD_CORE nominal 1200mV, scaling enabled
+<6>[70:01:01 00:00:00.000] L310 cache controller enabled
+<6>[70:01:01 00:00:00.000] l2x0: 8 ways, CACHE_ID 0x410000c7, AUX_CTRL 0x7c080001, Cache size: 1048576 B
+<6>[70:01:01 00:00:00.000] PERCPU: Embedded 7 pages/cpu @c1961000 s7520 r8192 d12960 u32768
+<7>[70:01:01 00:00:00.000] pcpu-alloc: s7520 r8192 d12960 u32768 alloc=8*4096
+<7>[70:01:01 00:00:00.000] pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+<4>[70:01:01 00:00:00.000] Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 254724
+<5>[70:01:01 00:00:00.000] Kernel command line: zcache tegraid=30.1.3.0.0 mem=1022M@2048M commchip_id=2 vmalloc=320M androidboot.serialno=015d21d520042004 androidboot.commchip_id=2 video=tegrafb no_console_suspend=1 console=none debug_uartport=hsport usbcore.old_scheme_first=1 RGB=0,0,0 pmicresetcause=1,17,0,2 batteryexist=1 batteryVerified=1 smplenable=0 qem_enable=0 androidboot.mode=normal lp0_vec=8192@0xb6005000 tegra_fbmem=7375680@0xace23000 prox_cal_data=222,3 tegraboot=sdmmc gpt gpt_sector=30535679 modem_id=0 softlockup_panic=1 android.kerneltype=normal lge.signed_image=false
+<4>[70:01:01 00:00:00.000]  dc_get_gamma_cmdline R:0,G:0,B:0,table_type:2 
+<4>[70:01:01 00:00:00.000]  max77663_reset_cause_cmdline bootcause[1] max77663RTCStatus[11] max77663rebootcause[0] max77663OnOffStat[2]
+<4>[70:01:01 00:00:00.000] tegra_batteryexist [1]
+<4>[70:01:01 00:00:00.000] tegra_batteryVerified [1]
+<4>[70:01:01 00:00:00.000] max77663_rtc_smpl_enable [0]
+<4>[70:01:01 00:00:00.000] [apds990x] get_prox_cal_data(): cross_talk_val = 222, ppcount_val = 3
+<6>[70:01:01 00:00:00.000] PID hash table entries: 4096 (order: 2, 16384 bytes)
+<6>[70:01:01 00:00:00.000] Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+<6>[70:01:01 00:00:00.000] Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+<6>[70:01:01 00:00:00.000] Memory: 1004MB = 1004MB total
+<5>[70:01:01 00:00:00.000] Memory: 998024k/998024k available, 48504k reserved, 381908K highmem
+<5>[70:01:01 00:00:00.000] Virtual kernel memory layout:
+<5>[70:01:01 00:00:00.000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+<5>[70:01:01 00:00:00.000]     fixmap  : 0xfff00000 - 0xfffe0000   ( 896 kB)
+<5>[70:01:01 00:00:00.000]     DMA     : 0xff000000 - 0xffe00000   (  14 MB)
+<5>[70:01:01 00:00:00.000]     vmalloc : 0xe7800000 - 0xfb000000   ( 312 MB)
+<5>[70:01:01 00:00:00.000]     lowmem  : 0xc0000000 - 0xe7000000   ( 624 MB)
+<5>[70:01:01 00:00:00.000]     pkmap   : 0xbfe00000 - 0xc0000000   (   2 MB)
+<5>[70:01:01 00:00:00.000]     modules : 0xbf000000 - 0xbfe00000   (  14 MB)
+<5>[70:01:01 00:00:00.000]       .text : 0xc0008000 - 0xc08d0238   (8993 kB)
+<5>[70:01:01 00:00:00.000]       .init : 0xc08d1000 - 0xc090bd60   ( 236 kB)
+<5>[70:01:01 00:00:00.000]       .data : 0xc090c000 - 0xc099a9e0   ( 571 kB)
+<5>[70:01:01 00:00:00.000]        .bss : 0xc099aa04 - 0xc0a28378   ( 567 kB)
+<6>[70:01:01 00:00:00.000] SLUB: Genslabs=13, HWalign=32, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+<6>[70:01:01 00:00:00.000] Preemptible hierarchical RCU implementation.
+<6>[70:01:01 00:00:00.000] NR_IRQS:800
+<6>[70:01:01 00:00:05.678] sched_clock: 32 bits at 1000kHz, resolution 1000ns, wraps every 4294967ms
+<6>[70:01:01 00:00:05.688] Calibrating delay loop... 996.14 BogoMIPS (lpj=4980736)
+<6>[70:01:01 00:00:05.728] pid_max: default: 32768 minimum: 301
+<6>[70:01:01 00:00:05.728] Mount-cache hash table entries: 512
+<6>[70:01:01 00:00:05.728] Initializing cgroup subsys debug
+<6>[70:01:01 00:00:05.728] Initializing cgroup subsys cpuacct
+<6>[70:01:01 00:00:05.728] Initializing cgroup subsys freezer
+<6>[70:01:01 00:00:05.728] Initializing cgroup subsys timer_slack
+<6>[70:01:01 00:00:05.728] CPU: Testing write buffer coherency: ok
+<6>[70:01:01 00:00:05.728] hw perfevents: enabled with ARMv7 Cortex-A9 PMU driver, 7 counters available
+<4>[70:01:01 00:00:05.728] CPU1: Booted secondary processor
+<4>[70:01:01 00:00:05.728] CPU2: Booted secondary processor
+<4>[70:01:01 00:00:05.728] CPU3: Booted secondary processor
+<6>[70:01:01 00:00:05.728] Brought up 4 CPUs
+<6>[70:01:01 00:00:05.728] SMP: Total of 4 processors activated (3984.58 BogoMIPS).
+<6>[70:01:01 00:00:05.728] print_constraints: dummy: 
+<6>[70:01:01 00:00:05.728] NET: Registered protocol family 16
+<6>[70:01:01 00:00:05.728] host1x bus init
+<6>[70:01:01 00:00:05.728] Serial: 8250/16550 driver, 4 ports, IRQ sharing disabled
+<4>[70:01:01 00:00:05.848] x3_setup_reboot
+<4>[70:01:01 00:00:05.848] x3_init_wlan_mem: WIFI MEM Allocated
+<6>[70:01:01 00:00:05.848] ram_console: got buffer at bed00000, size 80000
+<4>[70:01:01 00:00:05.848] ram console: ram_console virtual addr = 0xe7900000 
+<4>[70:01:01 00:00:05.848] ram console: reserved_buffer virtual = 0xe7980000 
+<4>[70:01:01 00:00:05.848] ram console: reserved_buffer physical= 0xbed80000 
+<6>[70:01:01 00:00:05.848] ram_console: error in header, 5
+<6>[70:01:01 00:00:05.848] ram_console: found existing buffer, size 68111, start 68111
+<6>[70:01:01 00:00:06.118] console [ram-1] enabled
+<6>[70:01:01 00:00:06.118] x3_edp_init: CPU regulator 4700 mA
+<6>[70:01:01 00:00:06.118] Registering tegra-kbc-gpio
+<6>[70:01:01 00:00:06.118] Registering successful tegra-kbc
+<4>[70:01:01 00:00:06.118] is_tegra_bootmode [1] 
+<4>[70:01:01 00:00:06.118] ##@x3_baseband_init  
+<7>[70:01:01 00:00:06.178] x3_bt_rfkill : tegra_gpio_enable(reset) [229]
+<7>[70:01:01 00:00:06.178] x3_bt_rfkill : tegra_gpio_enable(btwake) [147]
+<7>[70:01:01 00:00:06.178] x3_bt_rfkill : tegra_gpio_enable(hostwake) [148]
+<7>[70:01:01 00:00:06.178] x3_bt_rfkill: lbee9qmb_device registration OK 
+<4>[70:01:01 00:00:06.178] init 533MHz Timing table
+<6>[70:01:01 00:00:06.178] tegra: validated EMC DFS table
+<6>[70:01:01 00:00:06.178] x3_cam_init:++
+<6>[70:01:01 00:00:06.178] Clear bootloader IO dpd settings
+<6>[70:01:01 00:00:06.178] x3_apds990x_power_init start!![353][185] 
+<7>[70:01:01 00:00:06.178] PROX_Sensor[3] : Proximity LDO Enable before toggle at BOARD: 0, Line[374]
+<6>[70:01:01 00:00:06.178] [SENSOR-APDS] x3_apds990x_irq_set start(82, 306)!!!!![419] 
+<6>[70:01:01 00:00:06.188] hw-breakpoint: found 6 breakpoint and 1 watchpoint registers.
+<6>[70:01:01 00:00:06.188] hw-breakpoint: 1 breakpoint(s) reserved for watchpoint single-step.
+<6>[70:01:01 00:00:06.188] hw-breakpoint: maximum watchpoint size is 4 bytes.
+<6>[70:01:01 00:00:06.188] tegra_iovmm_register: added iovmm-smmu
+<6>[70:01:01 00:00:06.198] bio: create slab <bio-0> at 0
+<6>[70:01:01 00:00:06.198] vgaarb: loaded
+<4>[70:01:01 00:00:06.198] i2c-core: driver [tspdrv_i2c] using legacy suspend method
+<4>[70:01:01 00:00:06.198] i2c-core: driver [tspdrv_i2c] using legacy resume method
+<5>[70:01:01 00:00:06.198] SCSI subsystem initialized
+<6>[70:01:01 00:00:06.198]  ssd2825_bridge_spi_probe 
+<6>[70:01:01 00:00:06.198] ssd2825_bridge_spi_probe: probe
+<6>[70:01:01 00:00:06.208] rgb_bridge_spi_probe success
+<6>[70:01:01 00:00:06.208] usbcore: registered new interface driver usbfs
+<6>[70:01:01 00:00:06.208] usbcore: registered new interface driver hub
+<6>[70:01:01 00:00:06.208] usbcore: registered new device driver usb
+<3>[70:01:01 00:00:06.208] Failed lp0 wake enable for irq=52
+<6>[70:01:01 00:00:06.208] tegra-otg tegra-otg: otg transceiver registered
+<4>[70:01:01 00:00:06.208] i2c i2c-5: Not I2C compliant: can't read SCL
+<4>[70:01:01 00:00:06.208] i2c i2c-5: Bus may be unreliable
+<6>[70:01:01 00:00:06.208] i2c-gpio i2c-gpio.5: using pins 135 (SDA) and 134 (SCL, no clock stretching)
+<4>[70:01:01 00:00:06.208] tspdrv_i2c_probe !!!
+<4>[70:01:01 00:00:06.208] tegra_pwm tegra_pwm.3: pwm_disable called on disabled PWM
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_sd0: 600 <--> 3387 mV at 1025 mV normal standby
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_sd1: 800 <--> 1587 mV at 1200 mV normal standby
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_sd2: 600 <--> 3387 mV at 1800 mV normal standby
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_sd3: 600 <--> 3387 mV at 1200 mV normal standby
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_ldo0: 800 <--> 2350 mV at 1200 mV normal standby
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_ldo1: 800 <--> 2350 mV at 1000 mV normal standby
+<6>[70:01:01 00:00:06.218] print_constraints: max77663_ldo2: 800 <--> 3950 mV at 3300 mV normal standby
+<6>[70:01:01 00:00:06.228] print_constraints: max77663_ldo3: 3000 mV normal standby
+<6>[70:01:01 00:00:06.228] print_constraints: max77663_ldo4: 800 <--> 1587 mV at 1200 mV normal standby
+<6>[70:01:01 00:00:06.228] print_constraints: max77663_ldo5: 800 <--> 3950 mV at 2850 mV normal standby
+<6>[70:01:01 00:00:06.228] print_constraints: max77663_ldo6: 800 <--> 3950 mV at 1800 mV normal standby
+<6>[70:01:01 00:00:06.228] print_constraints: max77663_ldo7: 800 <--> 3950 mV at 1250 mV normal standby
+<6>[70:01:01 00:00:06.228] print_constraints: max77663_ldo8: 800 <--> 3950 mV at 1200 mV normal standby
+<6>[70:01:01 00:00:06.228] set_supply: max77663_ldo8: supplied by max77663_sd2
+<6>[70:01:01 00:00:06.228] max17043 4-0036: max17043_probe..
+<6>[70:01:01 00:00:06.558] max17043_init_model: Model Guage was loaded successful!!!(ea)
+<6>[70:01:01 00:00:06.558] max17043 4-0036: MAX17043 Fuel-Gauge Ver 3
+<6>[70:01:01 00:00:06.558] max8971 4-0035: max8971_probe..
+<4>[70:01:01 00:00:06.558] max8971_init_gpio
+<7>[70:01:01 00:00:06.558] max8971 4-0035: select POWER_SUPPLY_PROP_ONLINE
+<7>[70:01:01 00:00:06.558] max8971 4-0035: select POWER_SUPPLY_PROP_STATUS
+<7>[70:01:01 00:00:06.558] max8971 4-0035: select POWER_SUPPLY_STATUS_DISCHARGING__D
+<7>[70:01:01 00:00:06.558] max8971 4-0035: select POWER_SUPPLY_PROP_ONLINE
+<7>[70:01:01 00:00:06.558] max8971 4-0035: select POWER_SUPPLY_PROP_STATUS
+<4>[70:01:01 00:00:06.558] max8971_charger_wq()
+<6>[70:01:01 00:00:06.558] max8971 4-0035: max8971_probe finish...
+<6>[70:01:01 00:00:06.558] Advanced Linux Sound Architecture Driver Version 1.0.24.
+<7>[70:01:01 00:00:06.558] max8971 4-0035: select POWER_SUPPLY_STATUS_DISCHARGING__D
+<6>[70:01:01 00:00:06.558] Bluetooth: Core ver 2.16
+<6>[70:01:01 00:00:06.558] NET: Registered protocol family 31
+<6>[70:01:01 00:00:06.558] Bluetooth: HCI device and connection manager initialized
+<6>[70:01:01 00:00:06.558] Bluetooth: HCI socket layer initialized
+<6>[70:01:01 00:00:06.558] Bluetooth: L2CAP socket layer initialized
+<4>[70:01:01 00:00:06.558] Before max8971_charger_detail_irq() 
+<7>[70:01:01 00:00:06.558] max8971 4-0035: val[0] = 0x40, val[1] = 0x53, val[2] = 0x24
+<7>[70:01:01 00:00:06.558] max8971 4-0035: Power Up OK Interrupt
+<6>[70:01:01 00:00:06.558] Bluetooth: SCO socket layer initialized
+<4>[70:01:01 00:00:06.558] max8971_charger_detail_irq: chip->chg_cable_type 	0x00
+<6>[70:01:01 00:00:06.558] cfg80211: Calling CRDA to update world regulatory domain
+<4>[70:01:01 00:00:06.558] After max8971_charger_detail_irq() 
+<4>[70:01:01 00:00:06.558] Before max8971_charger_detail_irq() 
+<7>[70:01:01 00:00:06.558] max8971 4-0035: val[0] = 0x40, val[1] = 0x53, val[2] = 0x24
+<7>[70:01:01 00:00:06.558] max8971 4-0035: DC Under voltage Interrupt: details-0x10
+<6>[70:01:01 00:00:06.558] print_constraints: gpio-switch-ldo_mhl_en: 3300 mV normal standby
+<6>[70:01:01 00:00:06.558] print_constraints: gpio-switch-ldo_sensor_3v0_en_rev_e: 3000 mV normal standby
+<6>[70:01:01 00:00:06.558] print_constraints: gpio-switch-ldo_sensor_1v8_en_rev_e: 1800 mV normal standby
+<6>[70:01:01 00:00:06.558] print_constraints: gpio-switch-ldo_vdd_fuse_3v3_en: 3300 mV normal standby
+<3>[70:01:01 00:00:06.558] tegra: failed to map regulator to power detect cell pwrdet_nand(-19)
+<4>[70:01:01 00:00:06.558] After max8971_charger_detail_irq() 
+<3>[70:01:01 00:00:06.558] tegra: failed to map regulator to power detect cell pwrdet_pex_ctl(-19)
+<3>[70:01:01 00:00:06.558] tegra: failed regulators mapping - io power detection is left always on
+<6>[70:01:01 00:00:06.558] Switching to clocksource timer_us
+<6>[70:01:01 00:00:06.558] nvmap_page_pool_init: nvmap uc page pool size=31188 pages
+<6>[70:01:01 00:00:06.558] nvmap_page_pool_init: nvmap pool = uc, highmem=31188, pool_size=31188,totalram=249506, freeram=217447, totalhigh=95477, freehigh=64198
+<6>[70:01:01 00:00:06.658] nvmap_page_pool_init: nvmap wc page pool size=31188 pages
+<6>[70:01:01 00:00:06.678] nvmap_page_pool_init: nvmap pool = wc, highmem=31188, pool_size=31188,totalram=249506, freeram=186168, totalhigh=95477, freehigh=32919
+<6>[70:01:01 00:00:06.758] nvmap_page_pool_init: nvmap iwb page pool size=31188 pages
+<6>[70:01:01 00:00:06.778] nvmap_page_pool_init: nvmap pool = iwb, highmem=31188, pool_size=31188,totalram=249506, freeram=154920, totalhigh=95477, freehigh=1671
+<6>[70:01:01 00:00:06.868] tegra-nvmap tegra-nvmap: created carveout iram (255KiB)
+<6>[70:01:01 00:00:06.868] lge-battery lge-battery: lge_battery_probe: LGE Battery Charger Interface Driver Loading
+<7>[70:01:01 00:00:06.868] max8971 4-0035: select POWER_SUPPLY_PROP_STATUS
+<7>[70:01:01 00:00:06.868] max8971 4-0035: select POWER_SUPPLY_STATUS_CHARGING__C
+<4>[70:01:01 00:00:06.868] is_tegra_batteryVerified [1]
+<6>[70:01:01 00:00:06.868] NET: Registered protocol family 2
+<6>[70:01:01 00:00:06.868] IP route cache hash table entries: 32768 (order: 5, 131072 bytes)
+<6>[70:01:01 00:00:06.868] TCP established hash table entries: 131072 (order: 8, 1048576 bytes)
+<6>[70:01:01 00:00:06.868] TCP bind hash table entries: 65536 (order: 7, 786432 bytes)
+<6>[70:01:01 00:00:06.868] TCP: Hash tables configured (established 131072 bind 65536)
+<6>[70:01:01 00:00:06.868] TCP reno registered
+<6>[70:01:01 00:00:06.868] UDP hash table entries: 512 (order: 2, 16384 bytes)
+<6>[70:01:01 00:00:06.868] UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+<6>[70:01:01 00:00:06.868] NET: Registered protocol family 1
+<6>[70:01:01 00:00:06.868] RPC: Registered named UNIX socket transport module.
+<6>[70:01:01 00:00:06.868] RPC: Registered udp transport module.
+<6>[70:01:01 00:00:06.868] RPC: Registered tcp transport module.
+<6>[70:01:01 00:00:06.868] RPC: Registered tcp NFSv4.1 backchannel transport module.
+<7>[70:01:01 00:00:06.878] PCI: CLS 0 bytes, default 32
+<6>[70:01:01 00:00:06.878] Unpacking initramfs...
+<6>[70:01:01 00:00:06.888] host1x host1x: initialized
+<6>[70:01:01 00:00:06.888] PMU: registered new PMU device of type 0
+<6>[70:01:01 00:00:06.898] tegra3_throttle : init done
+<6>[70:01:01 00:00:06.898] Tegra cpuquiet initialized: enabled
+<6>[70:01:01 00:00:06.898] cpu-tegra: init EDP limit: 1350 MHz
+<4>[70:01:01 00:00:06.898] is_tegra_bootmode [1] 
+<6>[70:01:01 00:00:06.908] gps_gpio_init
+<6>[70:01:01 00:00:06.908] gps_gpio_probe
+<4>[70:01:01 00:00:06.918] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.918] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:06.918] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.918] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:06.918] highmem bounce pool size: 64 pages
+<6>[70:01:01 00:00:06.918] ashmem: initialized
+<6>[70:01:01 00:00:06.928] NTFS driver 2.1.30 [Flags: R/O].
+<6>[70:01:01 00:00:06.928] fuse init (API version 7.17)
+<6>[70:01:01 00:00:06.928] Registering char device tf_driver (122:0)
+<6>[70:01:01 00:00:06.938] TF : INFO 00000001 00:00:00.000 ------ ------  --------------- Booting... (t=00:00:06.938) TFNXBF01.16.37161     /Trusted-Logic
+<6>[70:01:01 00:00:06.938] io scheduler deadline registered
+<6>[70:01:01 00:00:06.938] io scheduler sio registered
+<6>[70:01:01 00:00:06.938] io scheduler zen registered
+<6>[70:01:01 00:00:06.938] io scheduler row registered (default)
+<6>[70:01:01 00:00:06.938] io scheduler cfq registered
+<6>[70:01:01 00:00:06.938] io scheduler vr registered
+<6>[70:01:01 00:00:06.938] lm3533_bl 1-0036: Starting backlight device probing..
+<4>[70:01:01 00:00:06.938] YJChae lm3533_bl_probe : Starting backlight device probing..
+<7>[70:01:01 00:00:06.938] Registered led device: lcd-backlight
+<4>[70:01:01 00:00:06.938] Registering led class dev successfully.
+<6>[70:01:01 00:00:06.938] lm3533_bl 1-0036: lm3533 probed
+<6>[70:01:01 00:00:06.938] mpe mpe: initialized
+<6>[70:01:01 00:00:06.938] gr3d gr3d: initialized
+<6>[70:01:01 00:00:06.938] gr2d gr2d: initialized
+<6>[70:01:01 00:00:06.938] isp isp: initialized
+<6>[70:01:01 00:00:06.938] vi vi: initialized
+<4>[70:01:01 00:00:06.938] x3_panel_enable -- x3_hddisplay_on:0 
+<6>[70:01:01 00:00:06.938] tegradc tegradc.0: probed
+<6>[70:01:01 00:00:06.938] tegradc tegradc.0: probed
+<4>[70:01:01 00:00:06.958] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.958] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:06.958] nvhdcp: using "always on" policy.
+<6>[70:01:01 00:00:06.958] tegradc tegradc.1: probed
+<6>[70:01:01 00:00:06.958] tegradc tegradc.1: probed
+<4>[70:01:01 00:00:06.978] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.978] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:06.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:06.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:06.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:06.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.038] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.038] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.038] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.038] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.038] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.038] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.068] [lp8720]  subpm_lp8720_init
+<4>[70:01:01 00:00:07.068] [lp8720]  lp8720_probe ver 1.2
+<6>[70:01:01 00:00:07.068] tegra_uart.0: ttyHS0 at MMIO 0x70006000 (irq = 68) is a TEGRA_UART
+<4>[70:01:01 00:00:07.078] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.078] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.078] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.078] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.078] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.078] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.118] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.118] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.118] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.118] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.118] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.118] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.158] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.158] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.158] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.158] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.158] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.158] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.198] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.198] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.198] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.198] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.198] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.198] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.238] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.238] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.238] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.238] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.278] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.278] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.278] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.278] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:07.288] Registered UART port ttyHS0
+<6>[70:01:01 00:00:07.288] tegra_uart.1: ttyHS1 at MMIO 0x70006040 (irq = 69) is a TEGRA_UART
+<4>[70:01:01 00:00:07.298] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.298] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.318] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.318] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.358] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.358] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.398] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.398] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.398] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.398] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.438] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.438] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:07.448] Registered UART port ttyHS1
+<6>[70:01:01 00:00:07.448] tegra_uart.2: ttyHS2 at MMIO 0x70006200 (irq = 78) is a TEGRA_UART
+<4>[70:01:01 00:00:07.478] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.478] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.498] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.498] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.518] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.518] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.558] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.558] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.598] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.598] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.598] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.598] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:07.608] Registered UART port ttyHS2
+<6>[70:01:01 00:00:07.608] tegra_uart.3: ttyHS3 at MMIO 0x70006300 (irq = 122) is a TEGRA_UART
+<4>[70:01:01 00:00:07.638] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.638] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.678] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.678] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.698] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.698] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.718] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.718] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.718] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.718] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.758] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.758] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:07.768] Registered UART port ttyHS3
+<6>[70:01:01 00:00:07.768] tegra_uart.4: ttyHS4 at MMIO 0x70006400 (irq = 123) is a TEGRA_UART
+<4>[70:01:01 00:00:07.798] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.798] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.798] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.798] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.838] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.838] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.878] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.878] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.898] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.898] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.918] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.918] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:07.928] Registered UART port ttyHS4
+<6>[70:01:01 00:00:07.928] Initialized tegra uart driver
+<6>[70:01:01 00:00:07.928] loop: module loaded
+<4>[70:01:01 00:00:07.928]  prox_common_power_set : 1, Line[393]
+<4>[70:01:01 00:00:07.938] [SENSOR-APDS]apds990x_probe : get cross-talk = 222 , ppcount_val = 3 
+<4>[70:01:01 00:00:07.938] [SENSOR-APDS] apds990x_probe enable(0) = 306
+<6>[70:01:01 00:00:07.938] apds990x 0-0039: [SENSOR-APDS]apds990x_probe: interrupt is hooked
+<4>[70:01:01 00:00:07.938] [SENSOR-APDS]APDS-990x
+<6>[70:01:01 00:00:07.938] input: light as /devices/virtual/input/input0
+<6>[70:01:01 00:00:07.938] input: proximity as /devices/virtual/input/input1
+<4>[70:01:01 00:00:07.938] [SENSOR-APDS]apds990x_probe prior data->enable_als_sensor = 0 LINE[2022]
+<4>[70:01:01 00:00:07.938] [SENSOR-APDS]apds990x_probe support ver. 1.0.4 enabled
+<4>[70:01:01 00:00:07.938] -----------------------------
+<4>[70:01:01 00:00:07.938] apds990x driver initialized!!
+<4>[70:01:01 00:00:07.938] -----------------------------
+<4>[70:01:01 00:00:07.938] i2c-core: driver [apds990x] using legacy suspend method
+<4>[70:01:01 00:00:07.938] i2c-core: driver [apds990x] using legacy resume method
+<4>[70:01:01 00:00:07.938] i2c-core: driver [apds9802als] using legacy suspend method
+<4>[70:01:01 00:00:07.938] i2c-core: driver [apds9802als] using legacy resume method
+<6>[70:01:01 00:00:07.938] tsc2007_adc 1-0048: tsc2007_ADC_probe.. start !!
+<4>[70:01:01 00:00:07.948] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.948] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:07.948] tsc2007_adc 1-0048: tsc2007_ADC_probe.. end !!
+<4>[70:01:01 00:00:07.948] i2c-core: driver [tsc2007_adc] using legacy suspend method
+<4>[70:01:01 00:00:07.948] i2c-core: driver [tsc2007_adc] using legacy resume method
+<6>[70:01:01 00:00:07.948] nct1008 4-004c: success in enabling rail vdd_nct1008
+<4>[70:01:01 00:00:07.948] tegra-i2c tegra-i2c.4: I2c error status 0x00000008
+<4>[70:01:01 00:00:07.948] tegra-i2c tegra-i2c.4: no acknowledge from address 0x4c
+<4>[70:01:01 00:00:07.948] tegra-i2c tegra-i2c.4: Packet status 0x00010009
+<4>[70:01:01 00:00:07.968] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.968] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<3>[70:01:01 00:00:07.968] nct1008 4-004c: nct1008_i2c_verify_for_onoff: I2C Error!![num:2], Retry Done.
+<3>[70:01:01 00:00:07.968]  
+<7>[70:01:01 00:00:07.968] nct1008 4-004c: 
+<7>[70:01:01 00:00:07.968]  initial local temp = -25 
+<7>[70:01:01 00:00:07.968] nct1008 4-004c: 
+<7>[70:01:01 00:00:07.968]  initial ext temp = -64.0 deg
+<6>[70:01:01 00:00:07.968] nct1008 4-004c: nct1008_probe: initialized
+<4>[70:01:01 00:00:07.968] nct1008_thermal_set_shutdown_temp (ext_range 1) : shutdown_temp 86, value = 150
+<7>[70:01:01 00:00:07.968] nct1008_thermal_set_limits: 44[-20000mC]
+<7>[70:01:01 00:00:07.978] nct1008_thermal_set_limits: 87[23000mC]
+<4>[70:01:01 00:00:07.978] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.978] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:07.978] i2c-core: driver [nct1008] using legacy suspend method
+<4>[70:01:01 00:00:07.978] i2c-core: driver [nct1008] using legacy resume method
+<7>[70:01:01 00:00:07.978] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_probe
+<7>[70:01:01 00:00:07.978] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: enabled=1
+<7>[70:01:01 00:00:07.978] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: reset low
+<7>[70:01:01 00:00:07.978] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: enabled=0
+<4>[70:01:01 00:00:07.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:07.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<7>[70:01:01 00:00:08.088] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: reset high
+<4>[70:01:01 00:00:08.088] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.088] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.118] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.118] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<7>[70:01:01 00:00:08.118] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: reset low
+<6>[70:01:01 00:00:08.118] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_probe: probed
+<6>[70:01:01 00:00:08.118] i2c i2c-0: mpu_probe: 0
+<6>[70:01:01 00:00:08.118] mpu6050B1 0-0068: success in enabling rail vdd_3v_ldo
+<6>[70:01:01 00:00:08.118] mpu6050B1 0-0068: success in enabling rail vlg_1v8_ldo
+<4>[70:01:01 00:00:08.118] [mpu_probe] LDO 1.8V : 1, LDO 3.0V : 1, Line[1925]
+<6>[70:01:01 00:00:08.118] <6>mldl_cfg:Reset MPU6050 B1
+<4>[70:01:01 00:00:08.198] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.198] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.208] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.208] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<7>[70:01:01 00:00:08.208] nct1008_thermal_set_limits: 84[20000mC]
+<7>[70:01:01 00:00:08.208] nct1008_thermal_set_limits: 109[45000mC]
+<4>[70:01:01 00:00:08.208] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.208] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:08.228] i2c i2c-0: Installing irq using 284
+<6>[70:01:01 00:00:08.228] i2c i2c-0: Module Param interface = mpuirq
+<6>[70:01:01 00:00:08.228] i2c i2c-0: inv_mpu_register_slave: +mpu6050 Type 1: Addr: 68 IRQ: 284, Adapt:  0
+<6>[70:01:01 00:00:08.228] i2c i2c-0: Installing accelirq irq using 284
+<4>[70:01:01 00:00:08.228] mpu_sysfs_init
+<4>[70:01:01 00:00:08.228] -----------------------------
+<4>[70:01:01 00:00:08.228] MPU DEVICE Initialized!!!!
+<4>[70:01:01 00:00:08.228] -----------------------------
+<4>[70:01:01 00:00:08.228] i2c-core: driver [mpu6050B1] using legacy suspend method
+<4>[70:01:01 00:00:08.228] i2c-core: driver [mpu6050B1] using legacy resume method
+<6>[70:01:01 00:00:08.228] mpu_init: Probe name mpu6050B1
+<6>[70:01:01 00:00:08.228] i2c i2c-0: ami306_mod_probe: ami306
+<6>[70:01:01 00:00:08.228] i2c i2c-0: inv_mpu_register_slave: +ami306 Type 2: Addr:  e IRQ:  0, Adapt:  0
+<6>[70:01:01 00:00:08.478] ami306_mod_init: Probe name ami306_mod
+<4>[70:01:01 00:00:08.478] [MUIC] muic_init()
+<4>[70:01:01 00:00:08.478] [MUIC] LG muic_probe() Begin
+<6>[70:01:01 00:00:08.478] [MUIC] muic_detect_device()
+<6>[70:01:01 00:00:08.478] [MUIC] muic chip: MAX14526
+<4>[70:01:01 00:00:08.478] [MUIC] max14526_init()
+<4>[70:01:01 00:00:08.518] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.518] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.528] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.528] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<7>[70:01:01 00:00:08.558] max8971 4-0035: MAX8971_REG_PROTCMD (0xa) = 0xc
+<7>[70:01:01 00:00:08.558] max8971 4-0035: Charing enable..
+<7>[70:01:01 00:00:08.558] max8971 4-0035: Unknown charger cabel type!!!
+<4>[70:01:01 00:00:08.558] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.558] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<7>[70:01:01 00:00:08.558] max8971 4-0035: MAX8971_REG_FCHGCRNT(0x6) = 0xa
+<4>[70:01:01 00:00:08.558] max8971_set_reg: unknown chager cabel type!!!
+<7>[70:01:01 00:00:08.558] max8971 4-0035: MAX8971_REG_DCCRNT(0x7)  = 0x14
+<4>[70:01:01 00:00:08.558] max8971_set_reg: unknown chager cabel type!!!
+<7>[70:01:01 00:00:08.558] max8971 4-0035: MAX8971_REG_TOPOFF(0x8) = 0x14
+<7>[70:01:01 00:00:08.558] max8971 4-0035: MAX8971_REG_CHGCNTL1(0x5) = 0x02
+<7>[70:01:01 00:00:08.558] max8971 4-0035: chg_flag_muic = 1
+<6>[70:01:01 00:00:08.558] max8971 4-0035: Enable charger
+<4>[70:01:01 00:00:08.568] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.568] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.598] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.598] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.608] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.608] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.638] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.638] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.658] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.658] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.678] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.678] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.708] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.708] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.718] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.718] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.738] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.738] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.738] [MUIC] muic_max14526_detect_accessory, int_stat_value = 0x1b 
+<4>[70:01:01 00:00:08.738] [MUIC] set_max14526_muic_mode, int_stat_value = 0x1b 
+<4>[70:01:01 00:00:08.738] [MUIC] set_max14526_ap_usb_mode
+<6>[70:01:01 00:00:08.738] [MUIC] usif_switch_ctrl, CP UART is connected to AP
+<6>[70:01:01 00:00:08.738] [MUIC] usif_switch_ctrl(): usif_mode = 0
+<6>[70:01:01 00:00:08.738] [MUIC] dp3t_switch_ctrl, CP UART is connected to MUIC UART
+<6>[70:01:01 00:00:08.738] [MUIC] dp3t_switch_ctrl(): dp3t_mode = 2
+<4>[70:01:01 00:00:08.738] [MUIC] muic_max14526_detect_accessory, muic_mode = MUIC_AP_USB (8) 
+<6>[70:01:01 00:00:08.738] [MUIC] wake_lock(): charging_mode = CHARGING_USB (6)
+<4>[70:01:01 00:00:08.738] [MUIC] muic_send_charger_type: charging_mode = CHARGING_USB (6)
+<6>[70:01:01 00:00:08.738] lge-battery lge-battery: Called lge_battery_cable_set_property
+<6>[70:01:01 00:00:08.738] lge-battery lge-battery: lge_battery_cable_set_property : Cable was changed : 3
+<4>[70:01:01 00:00:08.738] lge_battery_cable_work: online : (3)
+<4>[70:01:01 00:00:08.738] lge_battery_enable_charger : name is charger, enable = (1)
+<7>[70:01:01 00:00:08.738] max8971 4-0035: max8971_charger_set_property: psp 14, val->intval 3
+<7>[70:01:01 00:00:08.748] max8971 4-0035: max8971_charger_set_property: POWER_SUPPLY_PROP_CURRENT_NOW info->chg_cable_type = 0x03
+<7>[70:01:01 00:00:08.748] max8971 4-0035: max8971_charger_set_property: psp 0, val->intval 1
+<7>[70:01:01 00:00:08.748] max8971 4-0035: max8971_charger_set_property: POWER_SUPPLY_PROP_STATUS info->chg_cable_type = 0x03
+<6>[70:01:01 00:00:08.748] max8971 4-0035: Charging : enable(3)
+<4>[70:01:01 00:00:08.748] cable type is POWER_SUPPLY_TYPE_USB
+<4>[70:01:01 00:00:08.748] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.748] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<7>[70:01:01 00:00:08.748] max8971 4-0035: MAX8971_REG_PROTCMD (0xa) = 0xc
+<7>[70:01:01 00:00:08.748] max8971 4-0035: Charing enable..
+<4>[70:01:01 00:00:08.748] [MUIC] muic_probe() Finish
+<7>[70:01:01 00:00:08.748] max8971 4-0035: MAX8971_REG_FCHGCRNT(0x6) = 0xa
+<7>[70:01:01 00:00:08.748] max8971 4-0035: MAX8971_REG_DCCRNT(0x7)  = 0x14
+<4>[70:01:01 00:00:08.748] i2c-core: driver [muic] using legacy suspend method
+<7>[70:01:01 00:00:08.748] max8971 4-0035: MAX8971_REG_TOPOFF(0x8) = 0x0e
+<4>[70:01:01 00:00:08.748] i2c-core: driver [muic] using legacy resume method
+<7>[70:01:01 00:00:08.748] max8971 4-0035: MAX8971_REG_CHGCNTL1(0x5) = 0x02
+<7>[70:01:01 00:00:08.748] max8971 4-0035: chg_flag_muic = 1
+<6>[70:01:01 00:00:08.748] max8971 4-0035: Enable charger
+<6>[70:01:01 00:00:08.748] max8971 4-0035: Charging : info->chg_enable = enable(1)
+<7>[70:01:01 00:00:08.748] max8971 4-0035: charging enable  = 1
+<7>[70:01:01 00:00:08.748] max8971 4-0035: charging current = 3
+<7>[70:01:01 00:00:08.748] max8971 4-0035: charging status  = 1
+<4>[70:01:01 00:00:08.748] lge_battery_cable_work : CALLED in Normal Charger scean
+<4>[70:01:01 00:00:08.778] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.778] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:08.778] input: usb_disconnection as /devices/virtual/input/input2
+<4>[70:01:01 00:00:08.778] [CPW] CP Watcher Initialization started
+<6>[70:01:01 00:00:08.778] input: cp_watcher as /devices/virtual/input/input3
+<4>[70:01:01 00:00:08.778] [CPW] CP_CRASH_INT : 0, Line[480]
+<4>[70:01:01 00:00:08.778] [CPW] CP Watcher Initialization completed
+<6>[70:01:01 00:00:08.778] Loading pn544 driver
+<6>[70:01:01 00:00:08.778] pn544_probe : requesting IRQ 402
+<6>[70:01:01 00:00:08.778] PPP generic driver version 2.4.2
+<6>[70:01:01 00:00:08.788] PPP Deflate Compression module registered
+<6>[70:01:01 00:00:08.788] PPP BSD Compression module registered
+<6>[70:01:01 00:00:08.788] PPP MPPE Compression module registered
+<6>[70:01:01 00:00:08.788] NET: Registered protocol family 24
+<6>[70:01:01 00:00:08.788] tun: Universal TUN/TAP device driver, 1.6
+<6>[70:01:01 00:00:08.788] tun: (C) 1999-2004 Max Krasnyansky <maxk@qualcomm.com>
+<6>[70:01:01 00:00:08.788] usbcore: registered new interface driver cdc_ether
+<6>[70:01:01 00:00:08.788] usbcore: registered new interface driver smsc95xx
+<6>[70:01:01 00:00:08.788] usbcore: registered new interface driver cdc_subset
+<6>[70:01:01 00:00:08.788] cdc_ncm: 04-Aug-2011
+<6>[70:01:01 00:00:08.788] usbcore: registered new interface driver cdc_ncm
+<6>[70:01:01 00:00:08.788] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+<6>[70:01:01 00:00:08.788] tegra USB phy - inst[1] platform info:
+<6>[70:01:01 00:00:08.788] port_otg: no
+<6>[70:01:01 00:00:08.788] has_hostpc: yes
+<6>[70:01:01 00:00:08.788] phy_interface: USB_PHY_INTF_HSIC
+<6>[70:01:01 00:00:08.788] op_mode: TEGRA_USB_OPMODE_HOST
+<6>[70:01:01 00:00:08.788] vbus_gpio: -1
+<6>[70:01:01 00:00:08.788] vbus_reg: NULL
+<6>[70:01:01 00:00:08.788] hot_plug: disabled
+<6>[70:01:01 00:00:08.788] remote_wakeup: disabled
+<4>[70:01:01 00:00:08.788] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.788] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.788] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.788] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<3>[70:01:01 00:00:08.788] Timed out waiting for lock bit on pll pll_u
+<4>[70:01:01 00:00:08.798] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.798] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<3>[70:01:01 00:00:08.798] HSIC: Could not get regulator avdd_hsic
+<6>[70:01:01 00:00:08.808] tegra-ehci tegra-ehci.1: Tegra EHCI Host Controller
+<4>[70:01:01 00:00:08.808] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.808] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.808] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.808] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:08.808] tegra-ehci tegra-ehci.1: new USB bus registered, assigned bus number 1
+<4>[70:01:01 00:00:08.838] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.838] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.838] Increasing CPU rate while regulator is not ready may overclock CPU
+<6>[70:01:01 00:00:08.838] tegra-ehci tegra-ehci.1: irq 53, io mem 0x7d004000
+<3>[70:01:01 00:00:08.838] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.838] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.838] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:08.858] tegra-ehci tegra-ehci.1: USB 2.0 started, EHCI 1.00
+<6>[70:01:01 00:00:08.858] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[70:01:01 00:00:08.858] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[70:01:01 00:00:08.858] usb usb1: Product: Tegra EHCI Host Controller
+<6>[70:01:01 00:00:08.858] usb usb1: Manufacturer: Linux 3.1.10-OP-V2.63- ehci_hcd
+<6>[70:01:01 00:00:08.858] usb usb1: SerialNumber: tegra-ehci.1
+<6>[70:01:01 00:00:08.858] hub 1-0:1.0: USB hub found
+<6>[70:01:01 00:00:08.858] hub 1-0:1.0: 1 port detected
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver cdc_acm
+<6>[70:01:01 00:00:08.858] cdc_acm: v0.26:USB Abstract Control Model driver for USB modems and ISDN adapters
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver cdc_wdm
+<6>[70:01:01 00:00:08.858] Initializing USB Mass Storage driver...
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver usb-storage
+<6>[70:01:01 00:00:08.858] USB Mass Storage support registered.
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver libusual
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver usbserial
+<6>[70:01:01 00:00:08.858] usbserial: USB Serial Driver core
+<6>[70:01:01 00:00:08.858] USB Serial support registered for GSM modem (1-port)
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver option
+<6>[70:01:01 00:00:08.858] option: v0.7.2:USB Driver for GSM modems
+<6>[70:01:01 00:00:08.858] USB Serial support registered for pl2303
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver pl2303
+<6>[70:01:01 00:00:08.858] pl2303: Prolific PL2303 USB to serial adaptor driver
+<6>[70:01:01 00:00:08.858] usbcore: registered new interface driver modem_boot_hsic
+<6>[70:01:01 00:00:08.858] Nvidia Tegra High-Speed USB SOC 					Device Controller driver (Apr 30, 2012)
+<6>[70:01:01 00:00:08.858] tegra USB phy - inst[0] platform info:
+<6>[70:01:01 00:00:08.858] port_otg: yes
+<6>[70:01:01 00:00:08.858] has_hostpc: yes
+<6>[70:01:01 00:00:08.858] phy_interface: USB_PHY_INTF_UTMI
+<6>[70:01:01 00:00:08.858] op_mode: TEGRA_USB_OPMODE_DEVICE
+<6>[70:01:01 00:00:08.858] vbus_pmu_irq: 753
+<6>[70:01:01 00:00:08.858] vbus_gpio: 257
+<6>[70:01:01 00:00:08.868] charging: disabled
+<6>[70:01:01 00:00:08.868] remote_wakeup: disabled
+<6>[70:01:01 00:00:08.868] tegra-udc tegra-udc.0: usb_bat_chg regulator not registered: USB charging will not be enabled
+<6>[70:01:01 00:00:08.868] tegra-otg tegra-otg: SUSPEND --> PERIPHERAL
+<4>[70:01:01 00:00:08.878] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.878] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.878] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.878] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.878] [msg usb]  android .c >> android_bind :start 
+<4>[70:01:01 00:00:08.878] Increasing CPU rate while regulator is not ready may overclock CPU
+<4>[70:01:01 00:00:08.878] [msg usb]  android .c >> acm_function_init : gserial_setup
+<4>[70:01:01 00:00:08.878] [msg usb]  android .c >> mass_storage_function_init : 
+<3>[70:01:01 00:00:08.878] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<6>[70:01:01 00:00:08.878] android_usb gadget: Mass Storage Function, version: 2009/09/11
+<6>[70:01:01 00:00:08.878] android_usb gadget: Number of LUNs=1
+<6>[70:01:01 00:00:08.878]  lun0: LUN: removable file: (no medium)
+<4>[70:01:01 00:00:08.878] [msg usb]  android .c >> android_bind :end 
+<4>[70:01:01 00:00:08.878]  android_bind : Using Normal Cable
+<6>[70:01:01 00:00:08.878] android_usb gadget: android_usb ready
+<6>[70:01:01 00:00:08.878] tegra-udc: bind to driver android_usb
+<4>[70:01:01 00:00:08.878] [TOUCH] touch_power_init [188][129]
+<4>[70:01:01 00:00:08.878] [TOUCH] touch_power_init : successful
+<4>[70:01:01 00:00:08.878] [TOUCH]==>synaptics_touch_ic_power_on =1
+<4>[70:01:01 00:00:08.918] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.918] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.918] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.918] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.958] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.958] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.958] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.958] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.988] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.988] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<4>[70:01:01 00:00:08.998] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:08.998] cpu-tegra: Failed to set cpu frequency to 1300000 kHz
+<5>[70:01:01 00:00:08.998] CPU3: shutdown
+<3>[70:01:01 00:00:09.078] therm_est_work_func:error to get battery temp
+<6>[70:01:01 00:00:09.088] input: touch_dev as /devices/virtual/input/input4
+<6>[70:01:01 00:00:09.108] [Touch D] [touch_probe 2831] ts->pdata->int_pin
+<6>[70:01:01 00:00:09.108] [Touch] common[1] finger[17] flash[52] button[0]
+<6>[70:01:01 00:00:09.108] [Touch] SynaFirmware : E022
+<4>[70:01:01 00:00:09.118] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:09.118] cpu-tegra: Failed to set cpu frequency to 475000 kHz
+<4>[70:01:01 00:00:09.118] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:09.118] cpu-tegra: Failed to set cpu frequency to 475000 kHz
+<6>[70:01:01 00:00:09.148] [Touch] Synaptics DS4 R3.0 CONFIG_ID[E022](Interrupt mode): ID[1],  FW rev[0], f/u[0]
+<6>[70:01:01 00:00:09.148] [Touch] irq_pin[1] next_work[0] ghost_stage[0x1]
+<6>[70:01:01 00:00:09.148] [Touch] fw_rev[0:0] product_id[DS4 R3.0:S3203] config_id[E022:E022] force_upgrade[0]
+<6>[70:01:01 00:00:09.148] [Touch] config_id :22 fw_image_config_id:22
+<6>[70:01:01 00:00:09.148] [Touch] config_id_ver[ic:2/fw:2] config_id[ic:E022/fw:E022] config_id_int[ic:22/fw:22]
+<6>[70:01:01 00:00:09.148] [Touch] FW-upgrade is not executed
+<6>[70:01:01 00:00:09.148] [Touch] Touch driver is initialized
+<4>[70:01:01 00:00:09.148] ######## bthid_init: ########
+<4>[70:01:01 00:00:09.148] ######## bthid_init: done ########
+<6>[70:01:01 00:00:09.168] max77663-rtc max77663-rtc.0: MAX77663_RTC_IRQ [0x10]
+<6>[70:01:01 00:00:09.228] usb 1-1: new high speed USB device number 2 using tegra-ehci
+<6>[70:01:01 00:00:09.228] using rtc device, max77663-rtc, for alarms
+<6>[70:01:01 00:00:09.228] max77663-rtc max77663-rtc.0: rtc core: registered max77663-rtc as rtc0
+<4>[70:01:01 00:00:09.248] max77663_rtc_probe: tm: 113-08-21 14:02:47 (3571631002) 
+<6>[70:01:01 00:00:09.248] i2c /dev entries driver
+<6>[70:01:01 00:00:09.248] Linux video capture interface: v2.00
+<6>[70:01:01 00:00:09.248] usbcore: registered new interface driver uvcvideo
+<6>[70:01:01 00:00:09.248] USB Video Class driver (1.1.1)
+<6>[70:01:01 00:00:09.248] trpc_sema_init: registered misc dev 10:43
+<6>[70:01:01 00:00:09.248] trpc_node_register: Adding 'local' to node list
+<6>[70:01:01 00:00:09.248] nvavp nvavp: allocated IOVM at ff00000 for AVP os
+<6>[70:01:01 00:00:09.248] tegra_camera tegra_camera: tegra_camera_probe
+<6>[70:01:01 00:00:09.258] imx111 sensor driver loading
+<6>[70:01:01 00:00:09.258] imx111: probing sensor.
+<6>[70:01:01 00:00:09.258] imx119 sensor driver loading
+<6>[70:01:01 00:00:09.258] imx119: probing sensor.
+<6>[70:01:01 00:00:09.258] lm3559_probe start
+<6>[70:01:01 00:00:09.258] dw9714 sensor driver loading
+<6>[70:01:01 00:00:09.258] dw9714_probe
+<6>[70:01:01 00:00:09.258] dw9714_probe: Position low 0 high 1023 defined in kernel drivre is
+<6>[70:01:01 00:00:09.258] m24c08 sensor driver loading
+<6>[70:01:01 00:00:09.258] m24c08: probing sensor.
+<6>[70:01:01 00:00:09.268] ina230 4-0040: success in enabling rail vdd_ina230
+<4>[70:01:01 00:00:09.268] i2c-core: driver [ina230] using legacy suspend method
+<4>[70:01:01 00:00:09.268] i2c-core: driver [ina230] using legacy resume method
+<6>[70:01:01 00:00:09.268] device-mapper: uevent: version 1.0.3
+<6>[70:01:01 00:00:09.268] device-mapper: ioctl: 4.21.0-ioctl (2011-07-06) initialised: dm-devel@redhat.com
+<6>[70:01:01 00:00:09.268] Bluetooth: HCI UART driver ver 2.2
+<6>[70:01:01 00:00:09.268] Bluetooth: HCI H4 protocol initialized
+<6>[70:01:01 00:00:09.268] Bluetooth: HCILL protocol initialized
+<6>[70:01:01 00:00:09.268] Bluetooth: BlueSleep Mode Driver Ver 1.1
+<6>[70:01:01 00:00:09.278] cpuidle: using governor ladder
+<6>[70:01:01 00:00:09.278] cpuidle: using governor menu
+<6>[70:01:01 00:00:09.278] sdhci: Secure Digital Host Controller Interface driver
+<6>[70:01:01 00:00:09.278] sdhci: Copyright(c) Pierre Ossman
+<6>[70:01:01 00:00:09.278] sdhci-pltfm: SDHCI platform and OF driver helper
+<6>[70:01:01 00:00:09.278] mmc0: mss 65535 mrs 524288 mbs 4096 mbc 65535
+<6>[70:01:01 00:00:09.278] mmc0: no vmmc regulator found
+<7>[70:01:01 00:00:09.278] Registered led device: mmc0::
+<6>[70:01:01 00:00:09.288] mmc0: SDHCI controller on sdhci-tegra.3 [sdhci-tegra.3] using ADMA
+<6>[70:01:01 00:00:09.288] sdhci-tegra sdhci-tegra.0: vddio_sd_slot regulator not found: -19. Assuming vddio_sd_slot is not required.
+<6>[70:01:01 00:00:09.288] sdhci-tegra sdhci-tegra.0: Error: tegra3 io dpd not supported for sdhci-tegra.0
+<6>[70:01:01 00:00:09.288] mmc1: mss 65535 mrs 524288 mbs 4096 mbc 65535
+<6>[70:01:01 00:00:09.288] mmc1: no vmmc regulator found
+<7>[70:01:01 00:00:09.288] Registered led device: mmc1::
+<6>[70:01:01 00:00:09.288] mmc1: SDHCI controller on sdhci-tegra.0 [sdhci-tegra.0] using ADMA
+<3>[70:01:01 00:00:09.288] Failed gpio lp0 enable for irq=405, error=-22
+<3>[70:01:01 00:00:09.288] sdhci-tegra sdhci-tegra.2: SD card wake-up event registrationfailed with eroor: -22
+<6>[70:01:01 00:00:09.288] sdhci-tegra sdhci-tegra.2: vddio_sd_slot regulator not found: -19. Assuming vddio_sd_slot is not required.
+<6>[70:01:01 00:00:09.298] mmc2: mss 65535 mrs 524288 mbs 4096 mbc 65535
+<6>[70:01:01 00:00:09.298] mmc2: no vmmc regulator found
+<7>[70:01:01 00:00:09.298] Registered led device: mmc2::
+<6>[70:01:01 00:00:09.298] mmc2: SDHCI controller on sdhci-tegra.2 [sdhci-tegra.2] using ADMA
+<7>[70:01:01 00:00:09.298] Registered led device: button-backlight
+<4>[70:01:01 00:00:09.298] keypad_led_probe success 
+<6>[70:01:01 00:00:09.298] tegra-se tegra-se: tegra_se_probe: complete
+<6>[70:01:01 00:00:09.308] usbcore: registered new interface driver usbhid
+<6>[70:01:01 00:00:09.308] usbhid: USB HID core driver
+<6>[70:01:01 00:00:09.308] logger: created 64K log 'log_main'
+<6>[70:01:01 00:00:09.308] logger: created 32K log 'log_events'
+<6>[70:01:01 00:00:09.308] logger: created 32K log 'log_radio'
+<6>[70:01:01 00:00:09.308] logger: created 64K log 'log_system'
+<6>[70:01:01 00:00:09.308] zram: num_devices not specified. Using default: 1
+<6>[70:01:01 00:00:09.308] zram: Creating 1 devices ...
+<4>[70:01:01 00:00:09.318] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:09.318] cpu-tegra: Failed to set cpu frequency to 475000 kHz
+<6>[70:01:01 00:00:09.318] zcache: cleancache enabled using kernel transcendent memory and compression buddies
+<4>[70:01:01 00:00:09.358] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:09.358] cpu-tegra: Failed to set cpu frequency to 475000 kHz
+<6>[70:01:01 00:00:09.388] mmc0: new high speed DDR MMC card at address 0001
+<6>[70:01:01 00:00:09.388] mmcblk mmc0:0001: Card claimed for testing.
+<6>[70:01:01 00:00:09.388] mmcblk0: mmc0:0001 KTS00M 14.5 GiB 
+<6>[70:01:01 00:00:09.388] mmcblk0boot0: mmc0:0001 KTS00M partition 1 2.00 MiB
+<6>[70:01:01 00:00:09.388] mmcblk0boot1: mmc0:0001 KTS00M partition 2 2.00 MiB
+<4>[70:01:01 00:00:09.398] Primary GPT is invalid, using alternate GPT.
+<6>[70:01:01 00:00:09.398]  mmcblk0: p1 p2 p3 p4 p5 p6 p7 p8 p9 p10 p11 p12 p13
+<6>[70:01:01 00:00:09.408]  mmcblk0boot1: unknown partition table
+<6>[70:01:01 00:00:09.408]  mmcblk0boot0: unknown partition table
+<6>[70:01:01 00:00:09.748] mmc_attach_sd(mmc2) card_detect(TEGRA_GPIO_PW5) == 1 
+<6>[70:01:01 00:00:09.808] mmc_attach_sd(mmc2) card_detect(TEGRA_GPIO_PW5) == 1 
+<6>[70:01:01 00:00:09.828] HDMI status: Codec=3 Pin=5 Presence_Detect=0 ELD_Valid=0
+<6>[70:01:01 00:00:09.868] usbcore: registered new interface driver snd-usb-audio
+<6>[70:01:01 00:00:09.878] mmc_attach_sd(mmc2) card_detect(TEGRA_GPIO_PW5) == 1 
+<6>[70:01:01 00:00:09.878] max98088 0-0010: revision Å
+<4>[70:01:01 00:00:09.888] [max98088] reg 2B (0x81) / 2C(0x81)
+<6>[70:01:01 00:00:09.888] input: tegra-snd-max98088 as /devices/virtual/input/input5
+<6>[70:01:01 00:00:09.898] asoc: HiFi <-> tegra30-i2s.0 mapping ok
+<6>[70:01:01 00:00:09.898] asoc: dit-hifi <-> tegra30-spdif mapping ok
+<6>[70:01:01 00:00:09.898] asoc: dit-hifi <-> tegra30-i2s.3 mapping ok
+<6>[70:01:01 00:00:09.898] asoc: CALL <-> dit-hifi mapping ok
+<6>[70:01:01 00:00:09.898] asoc: dit-hifi <-> dit-hifi mapping ok
+<6>[70:01:01 00:00:09.898] asoc: FM <-> dit-hifi mapping ok
+<6>[70:01:01 00:00:09.908] input: tegra-max98088 Headphone Jack as /devices/platform/tegra-snd-max98088.0/sound/card1/input6
+<6>[70:01:01 00:00:09.908] ALSA device list:
+<6>[70:01:01 00:00:09.908]   #0: HDA NVIDIA Tegra at 0x70038000 irq 113
+<6>[70:01:01 00:00:09.908]   #1: tegra-max98088
+<6>[70:01:01 00:00:09.908] oprofile: using arm/armv7-ca9
+<6>[70:01:01 00:00:09.908] GACT probability NOT on
+<6>[70:01:01 00:00:09.908] Mirror/redirect action on
+<6>[70:01:01 00:00:09.908] u32 classifier
+<6>[70:01:01 00:00:09.908]     Actions configured
+<6>[70:01:01 00:00:09.908] Netfilter messages via NETLINK v0.30.
+<6>[70:01:01 00:00:09.908] nf_conntrack version 0.5.0 (15594 buckets, 62376 max)
+<6>[70:01:01 00:00:09.908] NF_TPROXY: Transparent proxy support initialized, version 4.1.0
+<6>[70:01:01 00:00:09.908] NF_TPROXY: Copyright (c) 2006-2007 BalaBit IT Ltd.
+<4>[70:01:01 00:00:09.918] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:09.918] cpu-tegra: Failed to set cpu frequency to 475000 kHz
+<6>[70:01:01 00:00:09.918] xt_time: kernel timezone is -0000
+<6>[70:01:01 00:00:09.918] ip_tables: (C) 2000-2006 Netfilter Core Team
+<6>[70:01:01 00:00:09.918] arp_tables: (C) 2002 David S. Miller
+<6>[70:01:01 00:00:09.918] TCP bic registered
+<6>[70:01:01 00:00:09.918] TCP cubic registered
+<6>[70:01:01 00:00:09.918] TCP westwood registered
+<6>[70:01:01 00:00:09.918] TCP htcp registered
+<6>[70:01:01 00:00:09.918] Initializing XFRM netlink socket
+<6>[70:01:01 00:00:09.918] NET: Registered protocol family 10
+<6>[70:01:01 00:00:09.918] Mobile IPv6
+<6>[70:01:01 00:00:09.928] ip6_tables: (C) 2000-2006 Netfilter Core Team
+<6>[70:01:01 00:00:09.928] IPv6 over IPv4 tunneling driver
+<6>[70:01:01 00:00:09.928] NET: Registered protocol family 17
+<6>[70:01:01 00:00:09.928] NET: Registered protocol family 15
+<6>[70:01:01 00:00:09.928] Bluetooth: RFCOMM TTY layer initialized
+<6>[70:01:01 00:00:09.928] Bluetooth: RFCOMM socket layer initialized
+<6>[70:01:01 00:00:09.928] Bluetooth: RFCOMM ver 1.11
+<6>[70:01:01 00:00:09.928] Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+<6>[70:01:01 00:00:09.928] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+<6>[70:01:01 00:00:09.928] NET: Registered protocol family 33
+<6>[70:01:01 00:00:09.928] L2TP core driver, V2.0
+<6>[70:01:01 00:00:09.928] PPPoL2TP kernel driver, V2.0
+<6>[70:01:01 00:00:09.928] NET: Registered protocol family 35
+<5>[70:01:01 00:00:09.928] Registering the dns_resolver key type
+<6>[70:01:01 00:00:09.928] VFP support v0.3: implementor 41 architecture 3 part 30 variant 9 rev 4
+<6>[70:01:01 00:00:09.948] mmc_attach_sd(mmc2) card_detect(TEGRA_GPIO_PW5) == 1 
+<4>[70:01:01 00:00:09.958] Increasing CPU rate while regulator is not ready may overclock CPU
+<3>[70:01:01 00:00:09.958] cpu-tegra: Failed to set cpu frequency to 475000 kHz
+<5>[70:01:01 00:00:09.958] Registering SWP/SWPB emulation handler
+<4>[70:01:01 00:00:09.978] Disabling clocks left on by bootloader:
+<4>[70:01:01 00:00:09.978]    dsi2-fixed
+<4>[70:01:01 00:00:09.978]    dsi1-fixed
+<4>[70:01:01 00:00:09.978]    uartd_dbg
+<4>[70:01:01 00:00:09.978]    uartd
+<4>[70:01:01 00:00:09.988]    fuse_burn
+<4>[70:01:01 00:00:09.988]    cclk_lp
+<4>[70:01:01 00:00:09.988]    pll_x_out0
+<4>[70:01:01 00:00:09.988]    pll_d2_out0
+<4>[70:01:01 00:00:09.988]    pll_d_out0
+<4>[70:01:01 00:00:09.988]    pll_c_out1
+<4>[70:01:01 00:00:09.988]    pll_m_out1
+<6>[70:01:01 00:00:09.988] CPU rate: 340 MHz
+<6>[70:01:01 00:00:09.988] DVFS: Got RTC device name:rtc0
+<6>[70:01:01 00:00:09.998] TEGRA: Linear age: 8
+<4>[70:01:01 00:00:09.998] tegra_dvfs: vdd_cpu: stats above 1237 mV will be squashed
+<4>[70:01:01 00:00:10.008] tegra3_dvfs: minimum cap.cbus rate 247000000 requires 1000 mV
+<6>[70:01:01 00:00:10.008] tegra dvfs: tegra sysfs cap interface is initialized
+<6>[70:01:01 00:00:10.008] tegra_actmon.emc: Completed initialization (0)
+<6>[70:01:01 00:00:10.008] tegra_actmon.avp: Completed initialization (0)
+<4>[70:01:01 00:00:10.008] is_tegra_bootmode [1] 
+<4>[70:01:01 00:00:10.008] regulator_init_complete: max77663_ldo5: incomplete constraints, leaving on
+<4>[70:01:01 00:00:10.008] regulator_init_complete: max77663_ldo3: incomplete constraints, leaving on
+<4>[70:01:01 00:00:10.008] regulator_init_complete: max77663_ldo1: incomplete constraints, leaving on
+<4>[70:01:01 00:00:10.018] regulator_init_complete: max77663_ldo0: incomplete constraints, leaving on
+<4>[70:01:01 00:00:10.018] regulator_init_complete: max77663_sd3: incomplete constraints, leaving on
+<4>[70:01:01 00:00:10.018] wifi_set_power = 1
+<3>[70:01:01 00:00:10.178] therm_est_work_func:error to get battery temp
+<4>[70:01:01 00:00:10.218] wifi_set_carddetect = 1
+<6>[70:01:01 00:00:10.268] mmc1: new high speed SDIO card at address 0001
+<4>[70:01:01 00:00:10.268] alloc static buf at e6980000!
+<4>[70:01:01 00:00:10.268] dhdsdio_probe : no mutex held. set lock
+<4>[70:01:01 00:00:10.268] F1 signature read @0x18000000=0x16444330
+<4>[70:01:01 00:00:10.268] DHD: dongle ram size is set to 294912(orig 294912)
+<4>[70:01:01 00:00:10.268] wl_create_event_handler thr:82 created
+<6>[70:01:01 00:00:10.268] CFG80211-INFO2) wl_event_handler : tsk Enter, tsk = 0xe5c0eda8
+<4>[70:01:01 00:00:10.278] p2p0: P2P Interface Registered
+<4>[70:01:01 00:00:10.278] dhd_attach thr:83 created
+<4>[70:01:01 00:00:10.278] dhd_attach thr:84 created
+<4>[70:01:01 00:00:10.278] dhd_attach thr:85 created
+<4>[70:01:01 00:00:10.278] wifi_get_mac_addr
+<3>[70:01:01 00:00:10.278] /data/misc/wifi/config_mac: Failed to get information (-2)
+<4>[70:01:01 00:00:10.278] Broadcom Dongle Host Driver: register interface [wlan0] MAC: 00:00:00:00:00:00
+<4>[70:01:01 00:00:10.278] dhdsdio_probe : the lock is released.
+<4>[70:01:01 00:00:10.278] 
+<4>[70:01:01 00:00:10.278] Dongle Host Driver, version 1.28.19.9 (r)
+<4>[70:01:01 00:00:10.278] Compiled in drivers/net/wireless/bcmdhd/src on Aug 21 2013 at 19:56:29
+<4>[70:01:01 00:00:10.278] wifi_set_power = 0
+<4>[70:01:01 00:00:10.478] =========== WLAN placed in RESET ========
+<6>[70:01:01 00:00:10.478] input: gpio-keys as /devices/platform/gpio-keys.0/input/input7
+<B>[13:08:21 14:02:49.500] 2013-08-21 14:02:49.500010
+<4>[13:08:21 14:02:49.500] Warning: unable to open an initial console.
+<3>[13:08:21 14:02:49.500] init: could not import file '/init.carrier.rc' from '/init.rc'
+<3>[13:08:21 14:02:49.500] init: could not import file '/init.lpm.rc' from '/init.rc'
+<4>[13:08:21 14:02:49.500] init (1): /proc/1/oom_adj is deprecated, please use /proc/1/oom_score_adj instead.
+<7>[13:08:21 14:02:49.500] max8971 4-0035: select POWER_SUPPLY_PROP_ONLINE
+<7>[13:08:21 14:02:49.500] max8971 4-0035: select POWER_SUPPLY_PROP_STATUS
+<7>[13:08:21 14:02:49.500] max8971 4-0035: select POWER_SUPPLY_STATUS_CHARGING__C
+<3>[13:08:21 14:02:49.850] init: using deprecated syntax for specifying property 'ro.serialno', use ${name} instead
+<6>[13:08:21 14:02:49.860] zcache: created ephemeral tmem pool, id=0, client=65535
+<6>[13:08:21 14:02:49.860] EXT4-fs (mmcblk0p3): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[13:08:21 14:02:49.920] zcache: created ephemeral tmem pool, id=1, client=65535
+<6>[13:08:21 14:02:49.920] EXT4-fs (mmcblk0p8): recovery complete
+<6>[13:08:21 14:02:49.920] EXT4-fs (mmcblk0p8): mounted filesystem with ordered data mode. Opts: barrier=1,nomblk_io_submit,data=ordered,nodelalloc,errors=continue
+<6>[13:08:21 14:02:49.970] zcache: created ephemeral tmem pool, id=2, client=65535
+<6>[13:08:21 14:02:49.970] EXT4-fs (mmcblk0p4): recovery complete
+<6>[13:08:21 14:02:49.970] EXT4-fs (mmcblk0p4): mounted filesystem with ordered data mode. Opts: barrier=1,nomblk_io_submit
+<5>[13:08:21 14:02:49.980] CPU1: shutdown
+<6>[13:08:21 14:02:49.990] zcache: created ephemeral tmem pool, id=3, client=65535
+<6>[13:08:21 14:02:49.990] EXT4-fs (mmcblk0p12): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[13:08:21 14:02:50.010] zcache: created ephemeral tmem pool, id=4, client=65535
+<6>[13:08:21 14:02:50.010] EXT4-fs (mmcblk0p9): mounted filesystem with ordered data mode. Opts: barrier=1
+<6>[13:08:21 14:02:50.090] zcache: created ephemeral tmem pool, id=5, client=65535
+<6>[13:08:21 14:02:50.090] EXT4-fs (mmcblk0p10): mounted filesystem with ordered data mode. Opts: barrier=1,data=ordered
+<7>[13:08:21 14:02:50.240] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: enabled=0
+<7>[13:08:21 14:02:50.240] lbee9qmb-rfkill lbee9qmb-rfkill.0: lbee9qmb_rfkill_set_power: new setting is ignored(already set)
+<6>[13:08:21 14:02:50.250] cpufreq_interactive_input_connect: connect to touch_dev
+<3>[13:08:21 14:02:50.260] therm_est_work_func:error to get battery temp
+<3>[13:08:21 14:02:50.310] init: cannot find '/system/xbin/rdlsc', disabling 'rdlsc'
+<3>[13:08:21 14:02:50.310] init: using deprecated syntax for specifying property 'ro.product.manufacturer', use ${name} instead
+<3>[13:08:21 14:02:50.310] init: using deprecated syntax for specifying property 'ro.product.model', use ${name} instead
+<3>[13:08:21 14:02:50.320] init: service 'console' requires console
+<3>[13:08:21 14:02:50.320] android_usb: already disabled
+<6>[13:08:21 14:02:50.320] TF : INFO 00000002 14:02:43.387 P-0005 T-000C TL OTF --------- SDrvCreate
+<3>[13:08:21 14:02:50.320] android_usb: already disabled
+<3>[13:08:21 14:02:50.320] init: using deprecated syntax for specifying property 'sys.usb.config', use ${name} instead
+<6>[13:08:21 14:02:50.320] adb_open(adbd)
+<4>[13:08:21 14:02:50.320] [msg usb] android.c >> android_bind_enabled_functions : f-> name =mtp 
+<6>[13:08:21 14:02:50.320] mtp_bind_config
+<4>[13:08:21 14:02:50.320] [msg usb] android.c >> android_bind_enabled_functions : f-> name =adb 
+<6>[13:08:21 14:02:50.320] adb_bind_config
+<6>[13:08:21 14:02:50.330] TF : INFO 00000003 14:02:43.393 ------ ------  --------------- Booted
+<6>[13:08:21 14:02:50.440] warning: `rild' uses 32-bit capabilities (legacy support in use)
+<6>[13:08:21 14:02:50.660] android_work: did not send uevent (0 0   (null))
+<3>[13:08:21 14:02:50.710] init: untracked pid 246 exited
+<6>[13:08:21 14:02:50.710] Adding 179640k swap on /dev/block/zram0.  Priority:-1 extents:1 across:179640k SS
+<6>[13:08:21 14:02:50.740] android_work: sent uevent USB_STATE=CONNECTED
+<6>[13:08:21 14:02:50.740] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[13:08:21 14:02:50.830] android_work: sent uevent USB_STATE=CONNECTED
+<6>[13:08:21 14:02:50.840] android_usb gadget: high speed config #1: android
+<6>[13:08:21 14:02:50.840] android_work: sent uevent USB_STATE=CONFIGURED
+<3>[13:08:21 14:02:51.120] usb 1-1: device not accepting address 2, error -71
+<6>[13:08:21 14:02:51.170] TF : INFO 00000004 14:02:44.243 P-001B T-001F HDCP SERVICE --- >> Cr <<
+<6>[13:08:21 14:02:51.170] TF : INFO 00000005 14:02:44.243 P-001B T-001F HDCP SERVICE --- >> SRVXOpenClientSession
+<6>[13:08:21 14:02:51.310] usb 1-1: new high speed USB device number 3 using tegra-ehci
+<3>[13:08:21 14:02:51.360] therm_est_work_func:error to get battery temp
+<6>[13:08:21 14:02:51.560] nvavp nvavp: using SMMU at ff00000 to load AVP kernel
+<6>[13:08:21 14:02:51.580] nvavp nvavp: read firmware from 'nvavp_os_0ff00000.bin' (15516 bytes)
+<6>[13:08:21 14:02:51.600] nvavp nvavp: entry=00000094 control=00004a80 debug=00005280 size=15492
+<6>[13:08:21 14:02:51.600] nvavp nvavp: AVP os at vaddr=e7c41000 paddr=ff00000 reset_addr=0ff00094
+<6>[13:08:21 14:02:51.610] nvavp nvavp: read ucode firmware from 'nvavp_vid_ucode.bin' (43464 bytes)
+<3>[13:08:21 14:02:51.730] usb 1-1: device not accepting address 3, error -71
+<7>[13:08:21 14:02:51.800] nct1008_thermal_set_limits: 106[42000mC]
+<7>[13:08:21 14:02:51.800] nct1008_thermal_set_limits: 124[60000mC]
+<6>[13:08:21 14:02:51.920] usb 1-1: new high speed USB device number 4 using tegra-ehci
+<4>[13:08:21 14:02:52.000] CPU1: Booted secondary processor
+<6>[13:08:21 14:02:52.010] nvavp nvavp: using SMMU at ff00000 to load AVP kernel
+<6>[13:08:21 14:02:52.010] nvavp nvavp: AVP os at vaddr=e7c41000 paddr=ff00000 reset_addr=0ff00094
+<3>[13:08:21 14:02:52.110] usb 1-1: device descriptor read/64, error -71
+<6>[13:08:21 14:02:52.190] lm3559_open
+<3>[13:08:21 14:02:52.420] usb 1-1: device descriptor read/64, error -71
+<3>[13:08:21 14:02:52.460] therm_est_work_func:error to get battery temp
+<6>[13:08:21 14:02:52.630] nvavp nvavp: using SMMU at ff00000 to load AVP kernel
+<6>[13:08:21 14:02:52.630] nvavp nvavp: AVP os at vaddr=e7c41000 paddr=ff00000 reset_addr=0ff00094
+<6>[13:08:21 14:02:52.730] usb 1-1: new high speed USB device number 5 using tegra-ehci
+<3>[13:08:21 14:02:52.930] usb 1-1: device descriptor read/64, error -71
+<4>[13:08:21 14:02:52.990] CPU3: Booted secondary processor
+<3>[13:08:21 14:02:53.230] usb 1-1: device descriptor read/64, error -71
+<3>[13:08:21 14:02:53.340] hub 1-0:1.0: unable to enumerate USB device on port 1
+<3>[13:08:21 14:02:53.560] therm_est_work_func:error to get battery temp
+<6>[13:08:21 14:02:53.670] usb 1-1: new high speed USB device number 6 using tegra-ehci
+<3>[13:08:21 14:02:54.100] usb 1-1: device not accepting address 6, error -71
+<6>[13:08:21 14:02:54.280] usb 1-1: new high speed USB device number 7 using tegra-ehci
+<3>[13:08:21 14:02:54.660] therm_est_work_func:error to get battery temp
+<3>[13:08:21 14:02:54.710] usb 1-1: device not accepting address 7, error -71
+<6>[13:08:21 14:02:54.880] usb 1-1: new high speed USB device number 8 using tegra-ehci
+<5>[13:08:21 14:02:54.990] CPU1: shutdown
+<3>[13:08:21 14:02:55.060] usb 1-1: device descriptor read/64, error -71
+<4>[13:08:21 14:02:55.320] [ami306_config] set fine data -- x[54],y[51],z[50]
+<3>[13:08:21 14:02:55.350] usb 1-1: device descriptor read/64, error -71
+<4>[13:08:21 14:02:55.560] [FUEL] max17043_work chip->status = 3
+<6>[13:08:21 14:02:55.640] usb 1-1: new high speed USB device number 9 using tegra-ehci
+<3>[13:08:21 14:02:55.760] therm_est_work_func:error to get battery temp
+<3>[13:08:21 14:02:55.830] usb 1-1: device descriptor read/64, error -71
+<4>[13:08:21 14:02:55.860] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x02)
+<4>[13:08:21 14:02:55.860] [TEMP] batt_ADC_value is 598
+<4>[13:08:21 14:02:55.860] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 14:02:55.860] [BATT] skin temp : 30000 curr_temp_flag = 0
+<4>[13:08:21 14:02:55.860] [BATT] temp_now[47000mC], current_now[21mA]
+<4>[13:08:21 14:02:55.860] [BATT] soc(99),  vcell(4252), temp(326), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 14:02:55.860] [BATT] read recording data is camera_state = [48]
+<5>[13:08:21 14:02:56.000] CPU3: shutdown
+<3>[13:08:21 14:02:56.140] usb 1-1: device descriptor read/64, error -71
+<3>[13:08:21 14:02:56.250] hub 1-0:1.0: unable to enumerate USB device on port 1
+<6>[13:08:21 14:02:56.580] usb 1-1: new high speed USB device number 10 using tegra-ehci
+<4>[13:08:21 14:02:56.650] [SENSOR-APDS] LuxValue = 55 
+<4>[13:08:21 14:02:56.880] 
+<4>[13:08:21 14:02:56.880]  ===>  apds990x_store_enable_ps_sensor(turn on) === 
+<4>[13:08:21 14:02:56.880] 
+<4>[13:08:21 14:02:56.880] 
+<4>[13:08:21 14:02:56.880]  ===>  apds990x_store_enable_ps_sensor(turn off) === 
+<4>[13:08:21 14:02:56.880] 
+<3>[13:08:21 14:02:57.000] usb 1-1: device not accepting address 10, error -71
+<6>[13:08:21 14:02:57.170] usb 1-1: new high speed USB device number 11 using tegra-ehci
+<3>[13:08:21 14:02:57.260] /dev/ttyACM0 -2
+<6>[13:08:21 14:02:57.260] tegra-ehci tegra-ehci.1: remove, state 1
+<3>[13:08:21 14:02:57.590] usb 1-1: device not accepting address 11, error -108
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot disable port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: Cannot enable port 1.  Maybe the USB cable is bad?
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot disable port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot reset port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: Cannot enable port 1.  Maybe the USB cable is bad?
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot disable port 1 (err = -108)
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: unable to enumerate USB device on port 1
+<3>[13:08:21 14:02:57.590] hub 1-0:1.0: cannot disable port 1 (err = -108)
+<6>[13:08:21 14:02:57.590] usb usb1: USB disconnect, device number 1
+<6>[13:08:21 14:02:57.590] usb usb1: disable_device
+<6>[13:08:21 14:02:57.590] usb usb1: sync_unlinks
+<6>[13:08:21 14:02:57.590] usb usb1: device_del
+<6>[13:08:21 14:02:57.640] tegra-ehci tegra-ehci.1: USB bus 1 deregistered
+<4>[13:08:21 14:02:57.670] hsic_rail_disable: unbalanced disable
+<3>[13:08:21 14:02:57.670] uhsic_phy_close avdd_hsic could not be disabled
+<6>[13:08:21 14:02:58.180] tegra USB phy - inst[1] platform info:
+<6>[13:08:21 14:02:58.180] port_otg: no
+<6>[13:08:21 14:02:58.180] has_hostpc: yes
+<6>[13:08:21 14:02:58.180] phy_interface: USB_PHY_INTF_HSIC
+<6>[13:08:21 14:02:58.180] op_mode: TEGRA_USB_OPMODE_HOST
+<6>[13:08:21 14:02:58.180] vbus_gpio: -1
+<6>[13:08:21 14:02:58.180] vbus_reg: NULL
+<6>[13:08:21 14:02:58.180] hot_plug: disabled
+<6>[13:08:21 14:02:58.180] remote_wakeup: disabled
+<3>[13:08:21 14:02:58.180] HSIC: Could not get regulator avdd_hsic
+<6>[13:08:21 14:02:58.190] tegra-ehci tegra-ehci.1: Tegra EHCI Host Controller
+<6>[13:08:21 14:02:58.190] tegra-ehci tegra-ehci.1: new USB bus registered, assigned bus number 1
+<6>[13:08:21 14:02:58.220] tegra-ehci tegra-ehci.1: irq 53, io mem 0x7d004000
+<6>[13:08:21 14:02:58.240] tegra-ehci tegra-ehci.1: USB 2.0 started, EHCI 1.00
+<6>[13:08:21 14:02:58.240] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+<6>[13:08:21 14:02:58.240] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+<6>[13:08:21 14:02:58.240] usb usb1: Product: Tegra EHCI Host Controller
+<6>[13:08:21 14:02:58.240] usb usb1: Manufacturer: Linux 3.1.10-OP-V2.63- ehci_hcd
+<6>[13:08:21 14:02:58.240] usb usb1: SerialNumber: tegra-ehci.1
+<6>[13:08:21 14:02:58.240] hub 1-0:1.0: USB hub found
+<6>[13:08:21 14:02:58.240] hub 1-0:1.0: 1 port detected
+<6>[13:08:21 14:02:58.590] usb 1-1: new high speed USB device number 2 using tegra-ehci
+<6>[13:08:21 14:02:58.620] usb 1-1: New USB device found, idVendor=1519, idProduct=0020
+<6>[13:08:21 14:02:58.620] usb 1-1: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+<6>[13:08:21 14:02:58.620] usb 1-1: Product: HSIC Device
+<6>[13:08:21 14:02:58.620] usb 1-1: Manufacturer: Comneon
+<6>[13:08:21 14:02:58.620] usb 1-1: SerialNumber: 0123456789
+<6>[13:08:21 14:02:58.650] cdc_acm 1-1:1.0: ttyACM0: USB ACM device
+<4>[13:08:21 14:02:58.750] ##@acm_tty_chars_in_buffer !ACM_READY 
+<4>[13:08:21 14:02:58.750] ##@acm_rx_tasklet !ACM_READY 
+<4>[13:08:21 14:02:58.750] ##@acm_ctrl_irq !ACM_READY 
+<6>[13:08:21 14:03:01.350] request_suspend_state: wakeup (3->0) at 16696469001 (2013-08-21 14:03:01.358262000 UTC) state[0]
+<6>[13:08:21 14:03:01.350] request_suspend_state (case)[0][0]
+<6>[13:08:21 22:03:01.410] <6>MPL-accODR : 28571 mHz
+<6>[13:08:21 22:03:01.430] <6>MPL-accODR : 5000 mHz
+<6>[13:08:21 22:03:01.450] <6>MPL-accODR : 15384 mHz
+<6>[13:08:21 22:03:01.760] acc_open
+<6>[13:08:21 22:03:01.760] acc_release
+<6>[13:08:21 22:03:01.800] baseband_usb_driver_probe: raw_ip using interface 3
+<6>[13:08:21 22:03:01.800] baseband_usb_driver_probe: raw_ip using interface 5
+<6>[13:08:21 22:03:01.800] baseband_usb_driver_probe: raw_ip using interface 7
+<6>[13:08:21 22:03:01.800] usbcore: registered new interface driver bb_raw_ip_net
+<4>[13:08:21 22:03:01.820] 
+<4>[13:08:21 22:03:01.820] Dongle Host Driver, version 1.28.19.9 (r)
+<4>[13:08:21 22:03:01.820] Compiled in drivers/net/wireless/bcmdhd/src on Aug 21 2013 at 19:56:29
+<4>[13:08:21 22:03:01.820] wl_android_wifi_on in
+<4>[13:08:21 22:03:01.820] wifi_set_power = 1
+<4>[13:08:21 22:03:02.020] =========== WLAN going back to live  ========
+<4>[13:08:21 22:03:02.020] sdio_reset_comm():
+<4>[13:08:21 22:03:02.030] dhd_bus_start fw_path : /system/etc/firmware/fw_bcmdhd_p2p.bin
+<4>[13:08:21 22:03:02.070] dhdsdio_write_vars: Download, Upload and compare of NVRAM succeeded.
+<4>[13:08:21 22:03:02.240] dhd_bus_init: enable 0x06, ready 0x06 (waited 0us)
+<4>[13:08:21 22:03:02.240] wifi_get_mac_addr
+<3>[13:08:21 22:03:02.240] get_mac_addr = 0:aa:70:76:91:59
+<4>[13:08:21 22:03:02.250] Firmware up: op_mode=0x0005, Broadcom Dongle Host Driver mac=00:aa:70:76:91:59
+<4>[13:08:21 22:03:02.250] dhd_wl_ioctl: WLC_GET_VAR: arp_version, ret = -23
+<3>[13:08:21 22:03:02.250] /data/misc/wifi/config: Failed to get information (-2)
+<4>[13:08:21 22:03:02.250] Firmware version = wl0: Nov  6 2012 15:14:19 version 5.90.125.120E (WFD)
+<6>[13:08:21 22:03:02.260] CFG80211-INFO2) wl_cfg80211_attach_post : p2p0: p2p_dev_addr=02:aa:70:76:91:59
+<4>[13:08:21 22:03:02.470] [SENSOR-APDS] LuxValue = 55 
+<3>[13:08:21 22:03:02.520] *** x3 country ccode=MY ccode_mapped=BS result=0
+<3>[13:08:21 22:03:02.520] custom_locale=BS custom_locale=0
+<3>[13:08:21 22:03:02.540] WLDEV-ERROR) wldev_set_country : wldev_set_country: set country for MY as BS rev 0
+<4>[13:08:21 22:03:02.990] CPU1: Booted secondary processor
+<6>[13:08:21 22:03:03.930] mtp_open
+<4>[13:08:21 22:03:03.990] CPU3: Booted secondary processor
+<4>[13:08:21 22:03:04.380] 
+<4>[13:08:21 22:03:04.380] TS0710:node_put_to_send:max_frame_usage=1
+<4>[13:08:21 22:03:05.500] [SENSOR-APDS]APDS-990x
+<4>[13:08:21 22:03:05.580] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:03:05.730] apds990x_store_run_calibration Succes cross-talk :  220, ppcount(3), is_white(0) 
+<4>[13:08:21 22:03:05.730] start lge_nvdata_write .
+<4>[13:08:21 22:03:05.730] write NV size = 1, offset = 2708
+<4>[13:08:21 22:03:05.730] write NV ret = 1
+<4>[13:08:21 22:03:05.880] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x02)
+<4>[13:08:21 22:03:05.880] [TEMP] batt_ADC_value is 592
+<4>[13:08:21 22:03:05.880] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:03:05.880] [BATT] skin temp : -456 curr_temp_flag = 0
+<4>[13:08:21 22:03:05.880] [BATT] temp_now[50250mC], current_now[405mA]
+<4>[13:08:21 22:03:05.880] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:03:05.880] [BATT] soc(99),  vcell(4202), temp(330), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:03:05.880] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:03:05.960] write NV offset = 2708, message = 3[3]
+<4>[13:08:21 22:03:05.960] start lge_nvdata_write .
+<4>[13:08:21 22:03:05.960] write NV size = 2, offset = 2700
+<4>[13:08:21 22:03:05.960] write NV ret = 2
+<4>[13:08:21 22:03:06.000] write NV offset = 2700, message = ‹(dc)[220]
+<3>[13:08:21 22:03:06.070] init: sys_prop: permission denied uid:1003  name:service.bootanim.exit
+<4>[13:08:21 22:03:07.810] dhd_wl_ioctl: WLC_IOCTL: cmd: 23, ret = -17
+<6>[13:08:21 22:03:08.100] gps_gpio_reset_store
+<6>[13:08:21 22:03:08.100] gps_gpio_reset_store(gpio_set_value) 143 0
+<6>[13:08:21 22:03:08.200] gps_gpio_reset_store
+<6>[13:08:21 22:03:08.210] gps_gpio_reset_store(gpio_set_value) 143 1
+<4>[13:08:21 22:03:08.230] wl_bss_connect_done succeeded with 5c:d9:98:dc:cd:79
+<4>[13:08:21 22:03:08.280] wl_bss_connect_done succeeded with 5c:d9:98:dc:cd:79
+<6>[13:08:21 22:03:08.300] CFG80211-TRACE) wl_cfg80211_set_btcoex_dhcp : wl_cfg80211_set_btcoex_dhcp: DHCP session starts
+<6>[13:08:21 22:03:08.310] gps_gpio_poweron_store
+<6>[13:08:21 22:03:08.310] gps_gpio_poweron_store(gpio_set_value) 142 0
+<6>[13:08:21 22:03:08.310] gps_gpio_poweron_store
+<6>[13:08:21 22:03:08.310] gps_gpio_poweron_store(gpio_set_value) 142 0
+<6>[13:08:21 22:03:08.330] tegra_uart tegra_uart.1: Setting clk_src clk_m
+<6>[13:08:21 22:03:08.330] tegra_uart tegra_uart.1: Setting clk_src clk_m
+<6>[13:08:21 22:03:08.330] tegra_uart tegra_uart.1: Setting clk_src clk_m
+<6>[13:08:21 22:03:08.330] gps_gpio_poweron_store
+<6>[13:08:21 22:03:08.330] gps_gpio_poweron_store(gpio_set_value) 142 1
+<6>[13:08:21 22:03:08.340] gps_gpio_poweron_store
+<6>[13:08:21 22:03:08.340] gps_gpio_poweron_store(gpio_set_value) 142 0
+<3>[13:08:21 22:03:08.730] binder: release proc 944, transaction 11760, not freed
+<3>[13:08:21 22:03:08.950] qtaguid: iface_stat: stat_update() wlan0 not found
+<6>[13:08:21 22:03:09.150] CFG80211-TRACE) wl_cfg80211_set_btcoex_dhcp : wl_cfg80211_set_btcoex_dhcp: DHCP is complete 
+<6>[13:08:21 22:03:09.460] tegra_uart tegra_uart.1: Setting clk_src clk_m
+<6>[13:08:21 22:03:12.190] binder: 470:540 transaction failed 29189, size 100-4
+<5>[13:08:21 22:03:13.227] CPU2: shutdown
+<3>[13:08:21 22:03:13.307] init: untracked pid 1397 exited
+<6>[13:08:21 22:03:13.557] ===== logger_open : task(AsyncTask #2) pid(1757)
+<6>[13:08:21 22:03:13.577] ===== logger_release: task(AsyncTask #2) pid(1757) !!
+<6>[13:08:21 22:03:13.577] tegra_uart tegra_uart.1: Setting clk_src clk_m
+<6>[13:08:21 22:03:13.747] gps_gpio_poweron_store
+<6>[13:08:21 22:03:13.747] gps_gpio_poweron_store(gpio_set_value) 142 1
+<6>[13:08:21 22:03:13.757] gps_gpio_poweron_store
+<6>[13:08:21 22:03:13.757] gps_gpio_poweron_store(gpio_set_value) 142 0
+<7>[13:08:21 22:03:14.017] p2p0: no IPv6 routers present
+<4>[13:08:21 22:03:14.977] CPU2: Booted secondary processor
+<6>[13:08:21 22:03:14.977] cpufreq_interactive_input_connect: connect to touch_dev
+<6>[13:08:21 22:03:15.157] gps_gpio_poweron_store
+<6>[13:08:21 22:03:15.157] gps_gpio_poweron_store(gpio_set_value) 142 1
+<6>[13:08:21 22:03:15.167] gps_gpio_poweron_store
+<6>[13:08:21 22:03:15.167] gps_gpio_poweron_store(gpio_set_value) 142 0
+<6>[13:08:21 22:03:15.477] adb_release
+<6>[13:08:21 22:03:15.477] mtp_release
+<6>[13:08:21 22:03:15.687] adb_open(adbd)
+<4>[13:08:21 22:03:15.697] [msg usb] android.c >> android_bind_enabled_functions : f-> name =mtp 
+<6>[13:08:21 22:03:15.697] mtp_bind_config
+<4>[13:08:21 22:03:15.697] [msg usb] android.c >> android_bind_enabled_functions : f-> name =adb 
+<6>[13:08:21 22:03:15.697] adb_bind_config
+<6>[13:08:21 22:03:15.847] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[13:08:21 22:03:15.917] android_work: sent uevent USB_STATE=CONNECTED
+<6>[13:08:21 22:03:15.917] android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[13:08:21 22:03:16.007] android_work: sent uevent USB_STATE=CONNECTED
+<6>[13:08:21 22:03:16.017] android_usb gadget: high speed config #1: android
+<6>[13:08:21 22:03:16.017] android_work: sent uevent USB_STATE=CONFIGURED
+<6>[13:08:21 22:03:16.157] mtp_open
+<4>[13:08:21 22:03:16.587] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:03:16.907] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x02)
+<4>[13:08:21 22:03:16.907] [TEMP] batt_ADC_value is 593
+<4>[13:08:21 22:03:16.907] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:03:16.907] [BATT] skin temp : 19726 curr_temp_flag = 0
+<4>[13:08:21 22:03:16.907] [BATT] temp_now[49750mC], current_now[-9mA]
+<4>[13:08:21 22:03:16.907] [BATT] soc(99),  vcell(4243), temp(329), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:03:16.907] [BATT] read recording data is camera_state = [48]
+<5>[13:08:21 22:03:17.227] CPU2: shutdown
+<6>[13:08:21 22:03:17.107] binder: 470:482 transaction failed 29189, size 228-0
+<5>[13:08:21 22:03:18.587] CPU3: shutdown
+<7>[13:08:21 22:03:19.817] wlan0: no IPv6 routers present
+<5>[13:08:21 22:03:20.587] CPU1: shutdown
+<6>[13:08:21 22:03:25.417] [Touch] touch_press : x[ 777] y[2046]
+<6>[13:08:21 22:03:25.707] [Touch] ghost_stage_finished. (NON-KEYGUARD)
+<6>[13:08:21 22:03:25.707] [Touch] touch_release : x[1414] y[2117]
+<4>[13:08:21 22:03:26.217] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:03:26.537] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:03:26.537] [TEMP] batt_ADC_value is 593
+<4>[13:08:21 22:03:26.537] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:03:26.537] [BATT] skin temp : 35037 curr_temp_flag = 0
+<4>[13:08:21 22:03:26.537] [BATT] temp_now[46250mC], current_now[-193mA]
+<4>[13:08:21 22:03:26.537] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:03:26.537] [BATT] soc(99),  vcell(4283), temp(329), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:03:26.537] [BATT] read recording data is camera_state = [48]
+<6>[13:08:21 22:03:26.657] [Touch] touch_press : x[1431] y[1689]
+<4>[13:08:21 22:03:27.857] CPU1: Booted secondary processor
+<6>[13:08:21 22:03:28.087] [Touch] touch_release : x[ 627] y[1515]
+<5>[13:08:21 22:03:28.857] CPU1: shutdown
+<4>[13:08:21 22:03:30.857] CPU1: Booted secondary processor
+<5>[13:08:21 22:03:31.857] CPU1: shutdown
+<4>[13:08:21 22:03:36.237] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:03:36.587] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:03:36.587] [TEMP] batt_ADC_value is 591
+<4>[13:08:21 22:03:36.587] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:03:36.587] [BATT] skin temp : 35574 curr_temp_flag = 0
+<4>[13:08:21 22:03:36.597] [BATT] temp_now[45000mC], current_now[-276mA]
+<4>[13:08:21 22:03:36.597] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:03:36.597] [BATT] soc(99),  vcell(4307), temp(331), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:03:36.597] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:03:46.257] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:03:46.627] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:03:46.627] [TEMP] batt_ADC_value is 590
+<4>[13:08:21 22:03:46.627] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:03:46.627] [BATT] skin temp : 35786 curr_temp_flag = 0
+<4>[13:08:21 22:03:46.627] [BATT] temp_now[44500mC], current_now[-286mA]
+<4>[13:08:21 22:03:46.637] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:03:46.637] [BATT] soc(99),  vcell(4313), temp(331), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:03:46.637] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:03:56.287] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:03:56.657] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x02)
+<4>[13:08:21 22:03:56.657] [TEMP] batt_ADC_value is 587
+<4>[13:08:21 22:03:56.657] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:03:56.657] [BATT] skin temp : 35973 curr_temp_flag = 0
+<4>[13:08:21 22:03:56.657] [BATT] temp_now[43750mC], current_now[-208mA]
+<4>[13:08:21 22:03:56.657] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:03:56.657] [BATT] soc(99),  vcell(4321), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:03:56.657] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:04:06.297] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:04:06.717] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:04:06.717] [TEMP] batt_ADC_value is 587
+<4>[13:08:21 22:04:06.717] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:04:06.717] [BATT] skin temp : 35980 curr_temp_flag = 0
+<4>[13:08:21 22:04:06.717] [BATT] temp_now[43250mC], current_now[-255mA]
+<4>[13:08:21 22:04:06.727] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:04:06.727] [BATT] soc(99),  vcell(4321), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:04:06.727] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:04:16.337] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:04:16.737] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:04:16.737] [TEMP] batt_ADC_value is 586
+<4>[13:08:21 22:04:16.737] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:04:16.737] [BATT] skin temp : 35696 curr_temp_flag = 0
+<4>[13:08:21 22:04:16.747] [BATT] temp_now[43000mC], current_now[-280mA]
+<4>[13:08:21 22:04:16.747] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:04:16.747] [BATT] soc(99),  vcell(4320), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:04:16.747] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:04:26.357] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:04:26.807] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:04:26.807] [TEMP] batt_ADC_value is 587
+<4>[13:08:21 22:04:26.807] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:04:26.807] [BATT] skin temp : 35866 curr_temp_flag = 0
+<4>[13:08:21 22:04:26.807] [BATT] temp_now[43000mC], current_now[-297mA]
+<4>[13:08:21 22:04:26.817] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:04:26.817] [BATT] soc(99),  vcell(4323), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:04:26.817] [BATT] read recording data is camera_state = [48]
+<6>[13:08:21 22:04:28.377] request_suspend_state: sleep (0->3) at 103127473001 (2013-08-21 14:04:28.388102999 UTC) state[0]
+<6>[13:08:21 22:04:28.377] early_suspend: call handlers
+<4>[13:08:21 22:04:28.387] [TOUCH]==>synaptics_touch_ic_power_on =0
+<6>[13:08:21 22:04:28.467] ssd2825_bridge_spi_suspend start 
+<6>[13:08:21 22:04:28.467] ssd2825_bridge_disable ***** x3_bridge_on : 1 
+<6>[13:08:21 22:04:28.477] lm353x_bl_off success *** state: 1 -> 0 
+<4>[13:08:21 22:04:28.617]  clk_s3->auto_dvfs:0, clk_s3->refcnt:0 
+<4>[13:08:21 22:04:28.617] tegra_set_clk_out_parent ---ret1:0, ret2:0, ret3:0, ret4:0, enable:0 
+<6>[13:08:21 22:04:28.617] ssd2825_bridge_disable ended 
+<6>[13:08:21 22:04:28.617] ssd2825_bridge_spi_suspend end 
+<4>[13:08:21 22:04:28.617] x3_panel_early_suspend 
+<4>[13:08:21 22:04:28.617] x3_panel_disable --x3_hddisplay_on:1 
+<6>[13:08:21 22:04:28.617] early_suspend: sync
+<6>[13:08:21 22:04:28.617] active wake lock radio-interface
+<6>[13:08:21 22:04:28.617] active wake lock PowerManagerService.Broadcasts
+<6>[13:08:21 22:04:28.617] active wake lock baseband_xmm_power
+<6>[13:08:21 22:04:28.617] active wake lock muic_lock
+<4>[13:08:21 22:04:28.727] dhd_set_suspend: force extra Suspend setting
+<4>[13:08:21 22:04:28.747] tegra-i2c tegra-i2c.0: I2c error status 0x00000008
+<4>[13:08:21 22:04:28.747] tegra-i2c tegra-i2c.0: no acknowledge from address 0x28
+<4>[13:08:21 22:04:28.747] tegra-i2c tegra-i2c.0: Packet status 0x00010009
+<4>[13:08:21 22:04:28.747] dhd_get_suspend_bcn_li_dtim bcn_li_dtim=3 DTIM=1 Listen=10
+<3>[13:08:21 22:04:28.747] pn544_dev_write : i2c_master_send returned -121
+<4>[13:08:21 22:04:28.767] CPU1: Booted secondary processor
+<5>[13:08:21 22:04:29.767] CPU1: shutdown
+<4>[13:08:21 22:04:34.767] CPU1: Booted secondary processor
+<5>[13:08:21 22:04:35.757] CPU1: shutdown
+<4>[13:08:21 22:04:36.457] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:04:36.817] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:04:36.817] [TEMP] batt_ADC_value is 587
+<4>[13:08:21 22:04:36.817] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:04:36.817] [BATT] skin temp : 36176 curr_temp_flag = 0
+<4>[13:08:21 22:04:36.817] [BATT] temp_now[43000mC], current_now[-333mA]
+<4>[13:08:21 22:04:36.827] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:04:36.827] [BATT] soc(99),  vcell(4336), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:04:36.827] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:04:46.687] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:04:47.117] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:04:47.117] [TEMP] batt_ADC_value is 587
+<4>[13:08:21 22:04:47.117] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:04:47.117] [BATT] skin temp : 36176 curr_temp_flag = 0
+<4>[13:08:21 22:04:47.117] [BATT] temp_now[42250mC], current_now[-328mA]
+<4>[13:08:21 22:04:47.127] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:04:47.127] [BATT] soc(99),  vcell(4336), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:04:47.127] [BATT] read recording data is camera_state = [48]
+<7>[13:08:21 22:04:48.427] nct1008_thermal_set_limits: 84[20000mC]
+<7>[13:08:21 22:04:48.427] nct1008_thermal_set_limits: 109[45000mC]
+<4>[13:08:21 22:04:56.797] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:04:57.377] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:04:57.377] [TEMP] batt_ADC_value is 587
+<4>[13:08:21 22:04:57.377] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:04:57.377] [BATT] skin temp : 35866 curr_temp_flag = 0
+<4>[13:08:21 22:04:57.387] [BATT] temp_now[41750mC], current_now[-321mA]
+<4>[13:08:21 22:04:57.387] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:04:57.387] [BATT] soc(99),  vcell(4336), temp(334), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:04:57.387] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:05:07.037] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:05:07.527] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:05:07.527] [TEMP] batt_ADC_value is 588
+<4>[13:08:21 22:05:07.527] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:05:07.527] [BATT] skin temp : 35594 curr_temp_flag = 0
+<4>[13:08:21 22:05:07.527] [BATT] temp_now[41500mC], current_now[-321mA]
+<4>[13:08:21 22:05:07.537] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:05:07.537] [BATT] soc(99),  vcell(4337), temp(333), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:05:07.537] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:05:17.177] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:05:18.267] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:05:18.267] [TEMP] batt_ADC_value is 590
+<4>[13:08:21 22:05:18.267] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:05:18.267] [BATT] skin temp : 35605 curr_temp_flag = 0
+<4>[13:08:21 22:05:18.267] [BATT] temp_now[41250mC], current_now[-316mA]
+<4>[13:08:21 22:05:18.267] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:05:18.277] [BATT] soc(100),  vcell(4338), temp(331), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:05:18.277] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:05:27.387] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:05:28.437] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:05:28.437] [TEMP] batt_ADC_value is 590
+<4>[13:08:21 22:05:28.437] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:05:28.437] [BATT] skin temp : 35778 curr_temp_flag = 0
+<4>[13:08:21 22:05:28.437] [BATT] temp_now[41000mC], current_now[-310mA]
+<4>[13:08:21 22:05:28.447] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:05:28.447] [BATT] soc(100),  vcell(4338), temp(331), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:05:28.447] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:05:37.897] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:05:38.687] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:05:38.687] [TEMP] batt_ADC_value is 591
+<4>[13:08:21 22:05:38.687] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:05:38.697] [BATT] skin temp : 35167 curr_temp_flag = 0
+<4>[13:08:21 22:05:38.697] [BATT] temp_now[40500mC], current_now[-292mA]
+<4>[13:08:21 22:05:38.697] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:05:38.697] [BATT] soc(100),  vcell(4338), temp(331), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:05:38.697] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:05:47.917] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:05:48.717] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:05:48.717] [TEMP] batt_ADC_value is 593
+<4>[13:08:21 22:05:48.717] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:05:48.717] [BATT] skin temp : 35069 curr_temp_flag = 0
+<4>[13:08:21 22:05:48.717] [BATT] temp_now[40500mC], current_now[-307mA]
+<4>[13:08:21 22:05:48.727] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:05:48.727] [BATT] soc(100),  vcell(4338), temp(329), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:05:48.727] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:05:58.017] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:05:58.977] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:05:58.977] [TEMP] batt_ADC_value is 594
+<4>[13:08:21 22:05:58.977] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:05:58.977] [BATT] skin temp : 35143 curr_temp_flag = 0
+<4>[13:08:21 22:05:58.987] [BATT] temp_now[40250mC], current_now[-302mA]
+<4>[13:08:21 22:05:58.987] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:05:58.987] [BATT] soc(100),  vcell(4338), temp(328), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:05:58.987] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:06:08.187] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:06:09.977] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:06:09.977] [TEMP] batt_ADC_value is 595
+<4>[13:08:21 22:06:09.977] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:06:09.977] [BATT] skin temp : 35269 curr_temp_flag = 0
+<4>[13:08:21 22:06:09.987] [BATT] temp_now[40250mC], current_now[-297mA]
+<4>[13:08:21 22:06:09.987] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:06:09.987] [BATT] soc(100),  vcell(4338), temp(328), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:06:09.987] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:06:18.437] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:06:20.017] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:06:20.017] [TEMP] batt_ADC_value is 595
+<4>[13:08:21 22:06:20.017] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:06:20.017] [BATT] skin temp : 35140 curr_temp_flag = 0
+<4>[13:08:21 22:06:20.017] [BATT] temp_now[40000mC], current_now[-296mA]
+<4>[13:08:21 22:06:20.027] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:06:20.027] [BATT] soc(100),  vcell(4338), temp(328), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:06:20.027] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:06:28.627] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:06:30.237] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:06:30.237] [TEMP] batt_ADC_value is 595
+<4>[13:08:21 22:06:30.237] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:06:30.237] [BATT] skin temp : 34702 curr_temp_flag = 0
+<4>[13:08:21 22:06:30.237] [BATT] temp_now[39750mC], current_now[-282mA]
+<4>[13:08:21 22:06:30.247] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:06:30.247] [BATT] soc(100),  vcell(4338), temp(328), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:06:30.247] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:06:38.717] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:06:40.407] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:06:40.407] [TEMP] batt_ADC_value is 597
+<4>[13:08:21 22:06:40.407] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:06:40.407] [BATT] skin temp : 34705 curr_temp_flag = 0
+<4>[13:08:21 22:06:40.407] [BATT] temp_now[39750mC], current_now[-293mA]
+<4>[13:08:21 22:06:40.417] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:06:40.417] [BATT] soc(100),  vcell(4338), temp(326), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:06:40.417] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:06:49.087] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:06:50.627] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:06:50.627] [TEMP] batt_ADC_value is 598
+<4>[13:08:21 22:06:50.627] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:06:50.627] [BATT] skin temp : 34795 curr_temp_flag = 0
+<4>[13:08:21 22:06:50.627] [BATT] temp_now[39500mC], current_now[-289mA]
+<4>[13:08:21 22:06:50.637] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:06:50.637] [BATT] soc(100),  vcell(4338), temp(326), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:06:50.637] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:06:59.227] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:07:00.837] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:07:00.837] [TEMP] batt_ADC_value is 598
+<4>[13:08:21 22:07:00.837] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:07:00.837] [BATT] skin temp : 34697 curr_temp_flag = 0
+<4>[13:08:21 22:07:00.837] [BATT] temp_now[39500mC], current_now[-288mA]
+<4>[13:08:21 22:07:00.837] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:07:00.847] [BATT] soc(100),  vcell(4338), temp(326), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:07:00.847] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:07:09.377] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:07:10.977] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:07:10.977] [TEMP] batt_ADC_value is 598
+<4>[13:08:21 22:07:10.977] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:07:10.977] [BATT] skin temp : 34589 curr_temp_flag = 0
+<4>[13:08:21 22:07:10.977] [BATT] temp_now[39250mC], current_now[-286mA]
+<4>[13:08:21 22:07:10.987] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:07:10.987] [BATT] soc(100),  vcell(4338), temp(326), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:07:10.987] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:07:19.587] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:07:21.217] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:07:21.217] [TEMP] batt_ADC_value is 600
+<4>[13:08:21 22:07:21.217] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:07:21.217] [BATT] skin temp : 34557 curr_temp_flag = 0
+<4>[13:08:21 22:07:21.217] [BATT] temp_now[39250mC], current_now[-285mA]
+<4>[13:08:21 22:07:21.227] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:07:21.227] [BATT] soc(100),  vcell(4338), temp(324), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:07:21.227] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:07:29.827] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:07:31.377] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:07:31.377] [TEMP] batt_ADC_value is 600
+<4>[13:08:21 22:07:31.377] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:07:31.377] [BATT] skin temp : 34918 curr_temp_flag = 0
+<4>[13:08:21 22:07:31.387] [BATT] temp_now[39250mC], current_now[-278mA]
+<4>[13:08:21 22:07:31.387] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:07:31.387] [BATT] soc(100),  vcell(4340), temp(324), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:07:31.387] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:07:40.187] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:07:41.577] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:07:41.577] [TEMP] batt_ADC_value is 602
+<4>[13:08:21 22:07:41.577] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:07:41.577] [BATT] skin temp : 34796 curr_temp_flag = 0
+<4>[13:08:21 22:07:41.577] [BATT] temp_now[39000mC], current_now[-277mA]
+<4>[13:08:21 22:07:41.587] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:07:41.587] [BATT] soc(100),  vcell(4338), temp(323), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:07:41.587] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:07:50.287] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:07:52.277] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:07:52.277] [TEMP] batt_ADC_value is 602
+<4>[13:08:21 22:07:52.277] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:07:52.277] [BATT] skin temp : 34420 curr_temp_flag = 0
+<4>[13:08:21 22:07:52.277] [BATT] temp_now[39000mC], current_now[-277mA]
+<4>[13:08:21 22:07:52.287] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:07:52.287] [BATT] soc(100),  vcell(4338), temp(323), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:07:52.287] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:08:00.417] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:08:02.517] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:08:02.517] [TEMP] batt_ADC_value is 602
+<4>[13:08:21 22:08:02.517] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:08:02.517] [BATT] skin temp : 34335 curr_temp_flag = 0
+<4>[13:08:21 22:08:02.517] [BATT] temp_now[39000mC], current_now[-273mA]
+<4>[13:08:21 22:08:02.527] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:08:02.527] [BATT] soc(100),  vcell(4340), temp(323), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:08:02.527] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:08:10.647] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:08:12.757] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:08:12.757] [TEMP] batt_ADC_value is 603
+<4>[13:08:21 22:08:12.757] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:08:12.757] [BATT] skin temp : 34242 curr_temp_flag = 0
+<4>[13:08:21 22:08:12.757] [BATT] temp_now[39000mC], current_now[-272mA]
+<4>[13:08:21 22:08:12.767] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:08:12.767] [BATT] soc(100),  vcell(4340), temp(322), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:08:12.767] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:08:20.887] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:08:22.787] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:08:22.787] [TEMP] batt_ADC_value is 604
+<4>[13:08:21 22:08:22.787] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:08:22.787] [BATT] skin temp : 34291 curr_temp_flag = 0
+<4>[13:08:21 22:08:22.787] [BATT] temp_now[38750mC], current_now[-269mA]
+<4>[13:08:21 22:08:22.797] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:08:22.797] [BATT] soc(100),  vcell(4340), temp(321), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:08:22.797] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:08:31.047] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:08:32.987] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:08:32.987] [TEMP] batt_ADC_value is 605
+<4>[13:08:21 22:08:32.987] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:08:32.987] [BATT] skin temp : 34294 curr_temp_flag = 0
+<4>[13:08:21 22:08:32.997] [BATT] temp_now[38750mC], current_now[-264mA]
+<4>[13:08:21 22:08:32.997] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:08:32.997] [BATT] soc(100),  vcell(4340), temp(320), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:08:32.997] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:08:41.217] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:08:43.257] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:08:43.257] [TEMP] batt_ADC_value is 606
+<4>[13:08:21 22:08:43.257] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:08:43.257] [BATT] skin temp : 34241 curr_temp_flag = 0
+<4>[13:08:21 22:08:43.257] [BATT] temp_now[38500mC], current_now[-264mA]
+<4>[13:08:21 22:08:43.257] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:08:43.267] [BATT] soc(100),  vcell(4341), temp(320), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:08:43.267] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:08:51.497] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:08:53.487] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:08:53.487] [TEMP] batt_ADC_value is 606
+<4>[13:08:21 22:08:53.487] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:08:53.487] [BATT] skin temp : 34138 curr_temp_flag = 0
+<4>[13:08:21 22:08:53.487] [BATT] temp_now[38500mC], current_now[-262mA]
+<4>[13:08:21 22:08:53.497] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:08:53.497] [BATT] soc(100),  vcell(4340), temp(320), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:08:53.497] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:09:01.587] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:09:03.707] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:09:03.707] [TEMP] batt_ADC_value is 606
+<4>[13:08:21 22:09:03.707] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:09:03.707] [BATT] skin temp : 34075 curr_temp_flag = 0
+<4>[13:08:21 22:09:03.707] [BATT] temp_now[38500mC], current_now[-262mA]
+<4>[13:08:21 22:09:03.707] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:09:03.717] [BATT] soc(100),  vcell(4341), temp(320), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:09:03.717] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:09:11.787] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:09:13.947] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:09:13.947] [TEMP] batt_ADC_value is 607
+<4>[13:08:21 22:09:13.947] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:09:13.947] [BATT] skin temp : 34053 curr_temp_flag = 0
+<4>[13:08:21 22:09:13.947] [BATT] temp_now[38500mC], current_now[-254mA]
+<4>[13:08:21 22:09:13.957] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:09:13.957] [BATT] soc(100),  vcell(4341), temp(319), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:09:13.957] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:09:22.107] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:09:24.187] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:09:24.187] [TEMP] batt_ADC_value is 607
+<4>[13:08:21 22:09:24.187] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:09:24.187] [BATT] skin temp : 34122 curr_temp_flag = 0
+<4>[13:08:21 22:09:24.187] [BATT] temp_now[38500mC], current_now[-256mA]
+<4>[13:08:21 22:09:24.197] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:09:24.197] [BATT] soc(100),  vcell(4341), temp(319), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:09:24.197] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:09:32.327] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:09:34.247] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:09:34.247] [TEMP] batt_ADC_value is 608
+<4>[13:08:21 22:09:34.247] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:09:34.247] [BATT] skin temp : 34187 curr_temp_flag = 0
+<4>[13:08:21 22:09:34.257] [BATT] temp_now[38500mC], current_now[-252mA]
+<4>[13:08:21 22:09:34.257] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:09:34.257] [BATT] soc(100),  vcell(4341), temp(318), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:09:34.257] [BATT] read recording data is camera_state = [48]
+<4>[13:08:21 22:09:42.437] [FUEL] max17043_work chip->status = 3
+<4>[13:08:21 22:09:44.487] [CHG] max8971_is_charging_enable() = 1 (chg_dtls_val = 0x03)
+<4>[13:08:21 22:09:44.487] [TEMP] batt_ADC_value is 608
+<4>[13:08:21 22:09:44.497] [TEMP] battery state temperature is True(Can Charging)!
+<4>[13:08:21 22:09:44.497] [BATT] skin temp : 34079 curr_temp_flag = 0
+<4>[13:08:21 22:09:44.497] [BATT] temp_now[38250mC], current_now[-253mA]
+<4>[13:08:21 22:09:44.497] [BATT] chg_flag_muic is initialized chg_flag_muic = 0
+<4>[13:08:21 22:09:44.497] [BATT] soc(100),  vcell(4341), temp(318), charging(1), health(1), id(1), online(3), system_rev(8)
+<4>[13:08:21 22:09:44.497] [BATT] read recording data is camera_state = [48]

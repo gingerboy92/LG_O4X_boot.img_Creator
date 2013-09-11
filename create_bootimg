@@ -1,5 +1,5 @@
 #!/bin/bash
-export ANDROID_FOLDER=/home/syukri/android_4.2/
+export ANDROID_FOLDER=/home/syukri/android/slimbean_4.3/
 
 ShowMenu () {
 clear
@@ -15,6 +15,8 @@ echo " "
 echo " [2] JB v4.1.x - MIUI - LG"
 echo " "
 echo " [3] JB v4.2.x - CM - LG"
+echo " "
+echo " [4] JB v4.3.x - CM - LG"
 echo " "
 echo " [x] Exit"
 echo " "
@@ -139,6 +141,28 @@ exit
 
 "3")
 echo "4.2.2 Selected, this is the default for now until i start building from 4.3 sources,
+so all i will do is to copy the boot.img to output file"
+echo ""
+echo "Deleting old boot.img"
+echo ""
+if [[ -e build/output/boot.img ]]; then
+  rm build/output/boot.img
+fi
+echo ""
+echo "Copying new boot.img to output"
+cp $ANDROID_FOLDER/out/target/product/p880/boot.img build/output/
+echo "Should be done, right?"
+exit
+;;
+
+#################################################################################################################
+#################################################################################################################
+
+#################################################################################################################
+#################################################################################################################
+
+"4")
+echo "4.3 Selected, this is the default for now until i start building from 4.3+++ sources,
 so all i will do is to copy the boot.img to output file"
 echo ""
 echo "Deleting old boot.img"
